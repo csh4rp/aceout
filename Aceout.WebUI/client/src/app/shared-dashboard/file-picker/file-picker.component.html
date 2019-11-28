@@ -1,0 +1,5 @@
+<div>
+    <mat-form-field class="input-container" (click)="openFilePicker()">
+        <input matInput placeholder="{{placeholder | translate}}" id="{{name}}" (change)="onChange()" [value]="control.value" class="text-input" disabled >
+    </mat-form-field>
+</div>

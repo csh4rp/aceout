@@ -1,0 +1,5 @@
+
+    <mat-checkbox [formControl]="control">{{label | translate}}</mat-checkbox>
+    <mat-error *ngFor="let error of errors">
+        {{error | translate}}
+    </mat-error>

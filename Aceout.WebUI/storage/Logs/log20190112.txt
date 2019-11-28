@@ -1,0 +1,484 @@
+2019-01-12 16:23:27.710 +01:00 [Information] User profile not available. Using '"HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ASP.NET\4.0.30319.0\AutoGenKeys\S-1-5-82-3006700770-424185619-1745488364-794895919-4004696415\DataProtection"' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-01-12 16:24:06.472 +01:00 [Information] User profile not available. Using '"HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ASP.NET\4.0.30319.0\AutoGenKeys\S-1-5-82-3006700770-424185619-1745488364-794895919-4004696415\DataProtection"' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-01-12 16:24:16.073 +01:00 [Information] User profile not available. Using '"HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ASP.NET\4.0.30319.0\AutoGenKeys\S-1-5-82-3006700770-424185619-1745488364-794895919-4004696415\DataProtection"' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-01-12 16:24:33.154 +01:00 [Information] User profile not available. Using '"HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ASP.NET\4.0.30319.0\AutoGenKeys\S-1-5-82-3006700770-424185619-1745488364-794895919-4004696415\DataProtection"' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-01-12 16:24:33.237 +01:00 [Fatal] Application startup exception
+System.InvalidOperationException: Unable to find the required services. Please add all the required services by calling 'IServiceCollection.AddHangfire' inside the call to 'ConfigureServices(...)' in the application startup code.
+   at Hangfire.HangfireApplicationBuilderExtensions.ThrowIfNotConfigured(IApplicationBuilder app)
+   at Hangfire.HangfireApplicationBuilderExtensions.UseHangfireServer(IApplicationBuilder app, BackgroundJobServerOptions options, IEnumerable`1 additionalProcesses, JobStorage storage)
+   at Aceout.WebUI.Startup.Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory) in D:\Programowanie\C#\aceout\Aceout.WebUI\Startup.cs:line 315
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Hosting.ConventionBasedStartup.Configure(IApplicationBuilder app)
+   at Microsoft.Extensions.DependencyInjection.AutoRegisterMiddleware.<>c__DisplayClass4_0.<Configure>b__0(IApplicationBuilder app) in C:\BA\8028\s\src\Microsoft.AspNetCore.Mvc.Versioning\Microsoft.Extensions.DependencyInjection\AutoRegisterMiddleware.cs:line 46
+   at Microsoft.AspNetCore.Mvc.Internal.MiddlewareFilterBuilderStartupFilter.<>c__DisplayClass0_0.<Configure>g__MiddlewareFilterBuilder|0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISSetupFilter.<>c__DisplayClass4_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.HostFilteringStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.Internal.AutoRequestServicesStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.BuildApplication()
+2019-01-12 16:24:33.465 +01:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost/ace  0
+2019-01-12 16:24:33.465 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost/ace  
+2019-01-12 16:24:33.465 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost/ace  
+2019-01-12 16:24:33.475 +01:00 [Error] Connection id ""0HLJOK86VIT32"", Request id ""0HLJOK86VIT32:00000001"": An unhandled exception was thrown by the application.
+System.OverflowException: Arithmetic operation resulted in an overflow.
+   at System.IO.StreamWriter.Write(String value)
+   at Microsoft.AspNetCore.Hosting.Views.ErrorPage.ExecuteAsync()
+   at Microsoft.Extensions.RazorViews.BaseView.ExecuteAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2019-01-12 16:24:33.475 +01:00 [Error] Connection id ""0HLJOK86VIT31"", Request id ""0HLJOK86VIT31:00000001"": An unhandled exception was thrown by the application.
+System.OverflowException: Arithmetic operation resulted in an overflow.
+   at System.IO.StreamWriter.Write(String value)
+   at Microsoft.AspNetCore.Hosting.Views.ErrorPage.ExecuteAsync()
+   at Microsoft.Extensions.RazorViews.BaseView.ExecuteAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2019-01-12 16:24:33.475 +01:00 [Error] Connection id ""0HLJOK86VIT33"", Request id ""0HLJOK86VIT33:00000001"": An unhandled exception was thrown by the application.
+System.OverflowException: Arithmetic operation resulted in an overflow.
+   at System.IO.StreamWriter.Write(String value)
+   at Microsoft.AspNetCore.Hosting.Views.ErrorPage.ExecuteAsync()
+   at Microsoft.Extensions.RazorViews.BaseView.ExecuteAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2019-01-12 16:24:33.478 +01:00 [Information] Request finished in 13.0027ms 500 text/html; charset=utf-8
+2019-01-12 16:24:33.478 +01:00 [Information] Request finished in 13.6279ms 500 
+2019-01-12 16:24:33.479 +01:00 [Information] Request finished in 14.3203ms 500 
+2019-01-12 16:24:40.536 +01:00 [Information] User profile not available. Using '"HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ASP.NET\4.0.30319.0\AutoGenKeys\S-1-5-82-3006700770-424185619-1745488364-794895919-4004696415\DataProtection"' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-01-12 16:24:41.069 +01:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost/ace  0
+2019-01-12 16:24:41.069 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost/ace  
+2019-01-12 16:24:41.096 +01:00 [Information] Request finished in 23.1144ms 200 
+2019-01-12 16:24:41.500 +01:00 [Warning] "HeaderCultureProvider" returned the following unsupported cultures '["pl-PL,pl;q=0.9,en-US;q=0.8,en;q=0.7"]'.
+2019-01-12 16:24:41.501 +01:00 [Warning] "HeaderCultureProvider" returned the following unsupported UI Cultures '["pl-PL,pl;q=0.9,en-US;q=0.8,en;q=0.7"]'.
+2019-01-12 16:24:41.515 +01:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing action "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)"
+2019-01-12 16:24:41.621 +01:00 [Information] Executing action method "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" - Validation state: Valid
+2019-01-12 16:24:41.623 +01:00 [Information] Executed action method "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.4955ms.
+2019-01-12 16:24:41.640 +01:00 [Information] Executing ViewResult, running view "Index".
+2019-01-12 16:24:41.696 +01:00 [Information] Executed ViewResult - view "Index" executed in 66.1599ms.
+2019-01-12 16:24:41.696 +01:00 [Information] Executed action "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" in 180.792ms
+2019-01-12 16:24:41.703 +01:00 [Information] Request finished in 636.6797ms 200 text/html; charset=utf-8
+2019-01-12 16:24:41.706 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost/ace/runtime.js  
+2019-01-12 16:24:41.706 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost/ace/polyfills.js  
+2019-01-12 16:24:41.723 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost/ace/styles.js  
+2019-01-12 16:24:41.728 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost/ace/scripts.js  
+2019-01-12 16:24:41.728 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost/ace/vendor.js  
+2019-01-12 16:24:41.734 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost/ace/main.js  
+2019-01-12 16:24:41.794 +01:00 [Information] Sending file. Request path: '"/runtime.js"'. Physical path: '"D:\Programowanie\C#\aceout\Aceout.WebUI\wwwroot\runtime.js"'
+2019-01-12 16:24:41.794 +01:00 [Information] Sending file. Request path: '"/polyfills.js"'. Physical path: '"D:\Programowanie\C#\aceout\Aceout.WebUI\wwwroot\polyfills.js"'
+2019-01-12 16:24:41.795 +01:00 [Information] Sending file. Request path: '"/main.js"'. Physical path: '"D:\Programowanie\C#\aceout\Aceout.WebUI\wwwroot\main.js"'
+2019-01-12 16:24:41.805 +01:00 [Information] Request finished in 71.258ms 200 application/javascript
+2019-01-12 16:24:41.805 +01:00 [Information] Request finished in 99.5485ms 200 application/javascript
+2019-01-12 16:24:41.805 +01:00 [Information] Request finished in 99.3534ms 200 application/javascript
+2019-01-12 16:24:41.817 +01:00 [Information] Sending file. Request path: '"/styles.js"'. Physical path: '"D:\Programowanie\C#\aceout\Aceout.WebUI\wwwroot\styles.js"'
+2019-01-12 16:24:41.817 +01:00 [Information] Request finished in 94.6407ms 200 application/javascript
+2019-01-12 16:24:41.817 +01:00 [Information] Sending file. Request path: '"/scripts.js"'. Physical path: '"D:\Programowanie\C#\aceout\Aceout.WebUI\wwwroot\scripts.js"'
+2019-01-12 16:24:41.818 +01:00 [Information] Request finished in 89.9721ms 200 application/javascript
+2019-01-12 16:24:42.182 +01:00 [Information] Sending file. Request path: '"/vendor.js"'. Physical path: '"D:\Programowanie\C#\aceout\Aceout.WebUI\wwwroot\vendor.js"'
+2019-01-12 16:24:42.182 +01:00 [Information] Request finished in 453.7282ms 200 application/javascript
+2019-01-12 16:24:42.940 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost/ace/assets/langs/i18n/pl.json  
+2019-01-12 16:24:42.941 +01:00 [Information] Sending file. Request path: '"/assets/langs/i18n/pl.json"'. Physical path: '"D:\Programowanie\C#\aceout\Aceout.WebUI\wwwroot\assets\langs\i18n\pl.json"'
+2019-01-12 16:24:42.941 +01:00 [Information] Request finished in 0.9602ms 200 application/json
+2019-01-12 16:24:45.412 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost/ace/default~course-paths~courses~pages-user-paths.js  
+2019-01-12 16:24:45.412 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost/ace/common.js  
+2019-01-12 16:24:45.412 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost/ace/pages-user-paths.js  
+2019-01-12 16:24:45.413 +01:00 [Information] Sending file. Request path: '"/common.js"'. Physical path: '"D:\Programowanie\C#\aceout\Aceout.WebUI\wwwroot\common.js"'
+2019-01-12 16:24:45.413 +01:00 [Information] Sending file. Request path: '"/pages-user-paths.js"'. Physical path: '"D:\Programowanie\C#\aceout\Aceout.WebUI\wwwroot\pages-user-paths.js"'
+2019-01-12 16:24:45.413 +01:00 [Information] Request finished in 0.7264ms 200 application/javascript
+2019-01-12 16:24:45.413 +01:00 [Information] Request finished in 0.8999ms 200 application/javascript
+2019-01-12 16:24:45.414 +01:00 [Information] Sending file. Request path: '"/default~course-paths~courses~pages-user-paths.js"'. Physical path: '"D:\Programowanie\C#\aceout\Aceout.WebUI\wwwroot\default~course-paths~courses~pages-user-paths.js"'
+2019-01-12 16:24:45.414 +01:00 [Information] Request finished in 1.9583ms 200 application/javascript
+2019-01-12 16:24:51.317 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost/ace/login  
+2019-01-12 16:24:51.318 +01:00 [Warning] "HeaderCultureProvider" returned the following unsupported cultures '["pl-PL,pl;q=0.9,en-US;q=0.8,en;q=0.7"]'.
+2019-01-12 16:24:51.318 +01:00 [Warning] "HeaderCultureProvider" returned the following unsupported UI Cultures '["pl-PL,pl;q=0.9,en-US;q=0.8,en;q=0.7"]'.
+2019-01-12 16:24:51.319 +01:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing action "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)"
+2019-01-12 16:24:51.335 +01:00 [Information] Executing action method "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" - Validation state: Valid
+2019-01-12 16:24:51.335 +01:00 [Information] Executed action method "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.0278ms.
+2019-01-12 16:24:51.335 +01:00 [Information] Executing ViewResult, running view "Index".
+2019-01-12 16:24:51.336 +01:00 [Information] Executed ViewResult - view "Index" executed in 0.9964ms.
+2019-01-12 16:24:51.336 +01:00 [Information] Executed action "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" in 17.2654ms
+2019-01-12 16:24:51.336 +01:00 [Information] Request finished in 19.24ms 200 text/html; charset=utf-8
+2019-01-12 16:26:45.325 +01:00 [Information] User profile not available. Using '"HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ASP.NET\4.0.30319.0\AutoGenKeys\S-1-5-82-3006700770-424185619-1745488364-794895919-4004696415\DataProtection"' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-01-12 16:26:45.916 +01:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost/ace  0
+2019-01-12 16:26:45.916 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost/ace  
+2019-01-12 16:26:45.944 +01:00 [Information] Request finished in 24.0963ms 200 
+2019-01-12 16:26:46.128 +01:00 [Warning] "HeaderCultureProvider" returned the following unsupported cultures '["pl-PL,pl;q=0.9,en-US;q=0.8,en;q=0.7"]'.
+2019-01-12 16:26:46.129 +01:00 [Warning] "HeaderCultureProvider" returned the following unsupported UI Cultures '["pl-PL,pl;q=0.9,en-US;q=0.8,en;q=0.7"]'.
+2019-01-12 16:26:46.143 +01:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing action "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)"
+2019-01-12 16:26:46.207 +01:00 [Information] Executing action method "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" - Validation state: Valid
+2019-01-12 16:26:46.209 +01:00 [Information] Executed action method "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.473ms.
+2019-01-12 16:26:46.227 +01:00 [Information] Executing ViewResult, running view "Index".
+2019-01-12 16:26:46.280 +01:00 [Information] Executed ViewResult - view "Index" executed in 63.2563ms.
+2019-01-12 16:26:46.280 +01:00 [Information] Executed action "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" in 137.3329ms
+2019-01-12 16:26:46.286 +01:00 [Information] Request finished in 372.316ms 200 text/html; charset=utf-8
+2019-01-12 16:26:46.288 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost/ace/runtime.js  
+2019-01-12 16:26:46.289 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost/ace/polyfills.js  
+2019-01-12 16:26:46.293 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost/ace/styles.js  
+2019-01-12 16:26:46.293 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost/ace/scripts.js  
+2019-01-12 16:26:46.303 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost/ace/vendor.js  
+2019-01-12 16:26:46.320 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost/ace/main.js  
+2019-01-12 16:26:46.332 +01:00 [Information] The file "/runtime.js" was not modified
+2019-01-12 16:26:46.332 +01:00 [Information] The file "/polyfills.js" was not modified
+2019-01-12 16:26:46.332 +01:00 [Information] The file "/main.js" was not modified
+2019-01-12 16:26:46.332 +01:00 [Information] The file "/scripts.js" was not modified
+2019-01-12 16:26:46.332 +01:00 [Information] The file "/vendor.js" was not modified
+2019-01-12 16:26:46.332 +01:00 [Information] The file "/styles.js" was not modified
+2019-01-12 16:26:46.333 +01:00 [Information] Request finished in 29.8182ms 304 application/javascript
+2019-01-12 16:26:46.333 +01:00 [Information] Request finished in 45.3776ms 304 application/javascript
+2019-01-12 16:26:46.333 +01:00 [Information] Request finished in 13.2698ms 304 application/javascript
+2019-01-12 16:26:46.333 +01:00 [Information] Request finished in 44.0063ms 304 application/javascript
+2019-01-12 16:26:46.333 +01:00 [Information] Request finished in 40.3933ms 304 application/javascript
+2019-01-12 16:26:46.333 +01:00 [Information] Request finished in 40.9056ms 304 application/javascript
+2019-01-12 16:26:47.085 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost/ace/assets/langs/i18n/pl.json  
+2019-01-12 16:26:47.085 +01:00 [Information] The file "/assets/langs/i18n/pl.json" was not modified
+2019-01-12 16:26:47.085 +01:00 [Information] Request finished in 0.4369ms 304 application/json
+2019-01-12 16:26:49.896 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost/ace/default~course-paths~courses~pages-user-paths.js  
+2019-01-12 16:26:49.896 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost/ace/common.js  
+2019-01-12 16:26:49.896 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost/ace/pages-user-paths.js  
+2019-01-12 16:26:49.896 +01:00 [Information] The file "/common.js" was not modified
+2019-01-12 16:26:49.896 +01:00 [Information] Request finished in 0.378ms 304 application/javascript
+2019-01-12 16:26:49.896 +01:00 [Information] The file "/pages-user-paths.js" was not modified
+2019-01-12 16:26:49.896 +01:00 [Information] Request finished in 0.2446ms 304 application/javascript
+2019-01-12 16:26:49.896 +01:00 [Information] The file "/default~course-paths~courses~pages-user-paths.js" was not modified
+2019-01-12 16:26:49.896 +01:00 [Information] Request finished in 0.6155ms 304 application/javascript
+2019-01-12 16:26:50.558 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost/ace/pages-user-courses.js  
+2019-01-12 16:26:50.562 +01:00 [Information] Sending file. Request path: '"/pages-user-courses.js"'. Physical path: '"D:\Programowanie\C#\aceout\Aceout.WebUI\wwwroot\pages-user-courses.js"'
+2019-01-12 16:26:50.562 +01:00 [Information] Request finished in 3.1527ms 200 application/javascript
+2019-01-12 16:28:04.470 +01:00 [Information] User profile not available. Using '"HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ASP.NET\4.0.30319.0\AutoGenKeys\S-1-5-82-3006700770-424185619-1745488364-794895919-4004696415\DataProtection"' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-01-12 16:28:04.744 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost/ace  
+2019-01-12 16:28:04.744 +01:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost/ace  0
+2019-01-12 16:28:04.908 +01:00 [Warning] "HeaderCultureProvider" returned the following unsupported cultures '["pl-PL,pl;q=0.9,en-US;q=0.8,en;q=0.7"]'.
+2019-01-12 16:28:04.908 +01:00 [Warning] "HeaderCultureProvider" returned the following unsupported UI Cultures '["pl-PL,pl;q=0.9,en-US;q=0.8,en;q=0.7"]'.
+2019-01-12 16:28:04.913 +01:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing action "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)"
+2019-01-12 16:28:04.913 +01:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing action "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)"
+2019-01-12 16:28:04.923 +01:00 [Information] Executing action method "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" - Validation state: Valid
+2019-01-12 16:28:04.923 +01:00 [Information] Executing action method "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" - Validation state: Valid
+2019-01-12 16:28:04.926 +01:00 [Information] Executed action method "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.2639ms.
+2019-01-12 16:28:04.926 +01:00 [Information] Executed action method "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.2852ms.
+2019-01-12 16:28:04.941 +01:00 [Information] Executing ViewResult, running view "Index".
+2019-01-12 16:28:04.941 +01:00 [Information] Executing ViewResult, running view "Index".
+2019-01-12 16:28:04.994 +01:00 [Information] Executed ViewResult - view "Index" executed in 61.9993ms.
+2019-01-12 16:28:04.994 +01:00 [Information] Executed ViewResult - view "Index" executed in 61.9993ms.
+2019-01-12 16:28:04.994 +01:00 [Information] Executed action "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" in 81.3296ms
+2019-01-12 16:28:04.994 +01:00 [Information] Executed action "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" in 81.3296ms
+2019-01-12 16:28:05.000 +01:00 [Information] Request finished in 256.5954ms 200 text/html; charset=utf-8
+2019-01-12 16:28:05.000 +01:00 [Information] Request finished in 256.5977ms 200 text/html; charset=utf-8
+2019-01-12 16:28:11.571 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost/ace  
+2019-01-12 16:28:12.201 +01:00 [Warning] "HeaderCultureProvider" returned the following unsupported cultures '["pl-PL,pl;q=0.9,en-US;q=0.8,en;q=0.7"]'.
+2019-01-12 16:28:12.202 +01:00 [Warning] "HeaderCultureProvider" returned the following unsupported UI Cultures '["pl-PL,pl;q=0.9,en-US;q=0.8,en;q=0.7"]'.
+2019-01-12 16:28:12.208 +01:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing action "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)"
+2019-01-12 16:28:12.285 +01:00 [Information] Executing action method "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" - Validation state: Valid
+2019-01-12 16:28:12.285 +01:00 [Information] Executed action method "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.027ms.
+2019-01-12 16:28:12.285 +01:00 [Information] Executing ViewResult, running view "Index".
+2019-01-12 16:28:12.286 +01:00 [Information] Executed ViewResult - view "Index" executed in 0.7074ms.
+2019-01-12 16:28:12.286 +01:00 [Information] Executed action "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" in 77.7254ms
+2019-01-12 16:28:12.286 +01:00 [Information] Request finished in 715.4175ms 200 text/html; charset=utf-8
+2019-01-12 16:28:21.024 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost/ace/common.js  
+2019-01-12 16:28:21.024 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost/ace/default~course-paths~courses~pages-user-paths.js  
+2019-01-12 16:28:21.026 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost/ace/pages-user-paths.js  
+2019-01-12 16:28:21.029 +01:00 [Information] The file "/common.js" was not modified
+2019-01-12 16:28:21.029 +01:00 [Information] The file "/pages-user-paths.js" was not modified
+2019-01-12 16:28:21.029 +01:00 [Information] The file "/default~course-paths~courses~pages-user-paths.js" was not modified
+2019-01-12 16:28:21.031 +01:00 [Information] Request finished in 6.6844ms 304 application/javascript
+2019-01-12 16:28:21.031 +01:00 [Information] Request finished in 5.1111ms 304 application/javascript
+2019-01-12 16:28:21.031 +01:00 [Information] Request finished in 6.685ms 304 application/javascript
+2019-01-12 16:29:14.186 +01:00 [Information] User profile not available. Using '"HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ASP.NET\4.0.30319.0\AutoGenKeys\S-1-5-82-3006700770-424185619-1745488364-794895919-4004696415\DataProtection"' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-01-12 16:29:14.539 +01:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost/ace  0
+2019-01-12 16:29:14.539 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost/ace  
+2019-01-12 16:29:14.704 +01:00 [Warning] "HeaderCultureProvider" returned the following unsupported cultures '["pl-PL,pl;q=0.9,en-US;q=0.8,en;q=0.7"]'.
+2019-01-12 16:29:14.704 +01:00 [Warning] "HeaderCultureProvider" returned the following unsupported UI Cultures '["pl-PL,pl;q=0.9,en-US;q=0.8,en;q=0.7"]'.
+2019-01-12 16:29:14.709 +01:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing action "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)"
+2019-01-12 16:29:14.709 +01:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing action "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)"
+2019-01-12 16:29:14.719 +01:00 [Information] Executing action method "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" - Validation state: Valid
+2019-01-12 16:29:14.719 +01:00 [Information] Executing action method "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" - Validation state: Valid
+2019-01-12 16:29:14.722 +01:00 [Information] Executed action method "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.2289ms.
+2019-01-12 16:29:14.722 +01:00 [Information] Executed action method "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.2912ms.
+2019-01-12 16:29:14.737 +01:00 [Information] Executing ViewResult, running view "Index".
+2019-01-12 16:29:14.737 +01:00 [Information] Executing ViewResult, running view "Index".
+2019-01-12 16:29:14.791 +01:00 [Information] Executed ViewResult - view "Index" executed in 62.1797ms.
+2019-01-12 16:29:14.791 +01:00 [Information] Executed ViewResult - view "Index" executed in 62.1797ms.
+2019-01-12 16:29:14.791 +01:00 [Information] Executed action "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" in 81.7324ms
+2019-01-12 16:29:14.791 +01:00 [Information] Executed action "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" in 81.7773ms
+2019-01-12 16:29:14.795 +01:00 [Information] Request finished in 257.4803ms 200 text/html; charset=utf-8
+2019-01-12 16:29:14.795 +01:00 [Information] Request finished in 257.4781ms 200 text/html; charset=utf-8
+2019-01-12 16:32:33.029 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost/ace  
+2019-01-12 16:32:33.029 +01:00 [Warning] "HeaderCultureProvider" returned the following unsupported cultures '["pl-PL,pl;q=0.9,en-US;q=0.8,en;q=0.7"]'.
+2019-01-12 16:32:33.030 +01:00 [Warning] "HeaderCultureProvider" returned the following unsupported UI Cultures '["pl-PL,pl;q=0.9,en-US;q=0.8,en;q=0.7"]'.
+2019-01-12 16:32:33.030 +01:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing action "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)"
+2019-01-12 16:32:33.109 +01:00 [Information] Executing action method "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" - Validation state: Valid
+2019-01-12 16:32:33.109 +01:00 [Information] Executed action method "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.0247ms.
+2019-01-12 16:32:33.109 +01:00 [Information] Executing ViewResult, running view "Index".
+2019-01-12 16:32:33.116 +01:00 [Information] Executed ViewResult - view "Index" executed in 6.5695ms.
+2019-01-12 16:32:33.116 +01:00 [Information] Executed action "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" in 86.069ms
+2019-01-12 16:32:33.116 +01:00 [Information] Request finished in 87.4568ms 200 text/html; charset=utf-8
+2019-01-12 16:32:33.132 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost/ace/runtime.js  
+2019-01-12 16:32:33.133 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost/ace/styles.js  
+2019-01-12 16:32:33.136 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost/ace/polyfills.js  
+2019-01-12 16:32:33.161 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost/ace/scripts.js  
+2019-01-12 16:32:33.169 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost/ace/main.js  
+2019-01-12 16:32:33.169 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost/ace/vendor.js  
+2019-01-12 16:32:33.178 +01:00 [Information] The file "/styles.js" was not modified
+2019-01-12 16:32:33.178 +01:00 [Information] The file "/polyfills.js" was not modified
+2019-01-12 16:32:33.178 +01:00 [Information] The file "/main.js" was not modified
+2019-01-12 16:32:33.178 +01:00 [Information] The file "/scripts.js" was not modified
+2019-01-12 16:32:33.178 +01:00 [Information] The file "/vendor.js" was not modified
+2019-01-12 16:32:33.178 +01:00 [Information] The file "/runtime.js" was not modified
+2019-01-12 16:32:33.181 +01:00 [Information] Request finished in 47.5843ms 304 application/javascript
+2019-01-12 16:32:33.181 +01:00 [Information] Request finished in 20.6213ms 304 application/javascript
+2019-01-12 16:32:33.181 +01:00 [Information] Request finished in 45.3036ms 304 application/javascript
+2019-01-12 16:32:33.181 +01:00 [Information] Request finished in 48.7278ms 304 application/javascript
+2019-01-12 16:32:33.181 +01:00 [Information] Request finished in 11.5529ms 304 application/javascript
+2019-01-12 16:32:33.181 +01:00 [Information] Request finished in 11.5521ms 304 application/javascript
+2019-01-12 16:32:33.967 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost/ace/assets/langs/i18n/pl.json  
+2019-01-12 16:32:33.967 +01:00 [Information] The file "/assets/langs/i18n/pl.json" was not modified
+2019-01-12 16:32:33.967 +01:00 [Information] Request finished in 0.4684ms 304 application/json
+2019-01-12 16:32:36.898 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost/ace/pages-user-paths.js  
+2019-01-12 16:32:36.898 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost/ace/default~course-paths~courses~pages-user-paths.js  
+2019-01-12 16:32:36.898 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost/ace/common.js  
+2019-01-12 16:32:36.899 +01:00 [Information] The file "/common.js" was not modified
+2019-01-12 16:32:36.899 +01:00 [Information] The file "/pages-user-paths.js" was not modified
+2019-01-12 16:32:36.899 +01:00 [Information] Request finished in 0.3882ms 304 application/javascript
+2019-01-12 16:32:36.899 +01:00 [Information] Request finished in 0.446ms 304 application/javascript
+2019-01-12 16:32:36.899 +01:00 [Information] The file "/default~course-paths~courses~pages-user-paths.js" was not modified
+2019-01-12 16:32:36.899 +01:00 [Information] Request finished in 0.7034ms 304 application/javascript
+2019-01-12 16:33:06.645 +01:00 [Information] User profile not available. Using '"HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ASP.NET\4.0.30319.0\AutoGenKeys\S-1-5-82-3006700770-424185619-1745488364-794895919-4004696415\DataProtection"' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-01-12 16:33:06.962 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost/ace  
+2019-01-12 16:33:06.962 +01:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost/ace  0
+2019-01-12 16:33:07.132 +01:00 [Warning] "HeaderCultureProvider" returned the following unsupported cultures '["pl-PL,pl;q=0.9,en-US;q=0.8,en;q=0.7"]'.
+2019-01-12 16:33:07.133 +01:00 [Warning] "HeaderCultureProvider" returned the following unsupported UI Cultures '["pl-PL,pl;q=0.9,en-US;q=0.8,en;q=0.7"]'.
+2019-01-12 16:33:07.137 +01:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing action "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)"
+2019-01-12 16:33:07.137 +01:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing action "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)"
+2019-01-12 16:33:07.148 +01:00 [Information] Executing action method "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" - Validation state: Valid
+2019-01-12 16:33:07.148 +01:00 [Information] Executing action method "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" - Validation state: Valid
+2019-01-12 16:33:07.150 +01:00 [Information] Executed action method "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.2978ms.
+2019-01-12 16:33:07.150 +01:00 [Information] Executed action method "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.2776ms.
+2019-01-12 16:33:07.165 +01:00 [Information] Executing ViewResult, running view "Index".
+2019-01-12 16:33:07.165 +01:00 [Information] Executing ViewResult, running view "Index".
+2019-01-12 16:33:07.219 +01:00 [Information] Executed ViewResult - view "Index" executed in 63.1707ms.
+2019-01-12 16:33:07.219 +01:00 [Information] Executed ViewResult - view "Index" executed in 63.1758ms.
+2019-01-12 16:33:07.220 +01:00 [Information] Executed action "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" in 82.3886ms
+2019-01-12 16:33:07.220 +01:00 [Information] Executed action "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" in 82.3886ms
+2019-01-12 16:33:07.231 +01:00 [Information] Request finished in 269.4671ms 200 text/html; charset=utf-8
+2019-01-12 16:33:07.231 +01:00 [Information] Request finished in 269.4671ms 200 text/html; charset=utf-8
+2019-01-12 16:45:02.422 +01:00 [Information] User profile not available. Using '"HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ASP.NET\4.0.30319.0\AutoGenKeys\S-1-5-82-3006700770-424185619-1745488364-794895919-4004696415\DataProtection"' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-01-12 16:45:02.806 +01:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost/ace  0
+2019-01-12 16:45:02.806 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost/ace  
+2019-01-12 16:45:02.837 +01:00 [Information] Request finished in 30.0907ms 200 
+2019-01-12 16:45:03.026 +01:00 [Warning] "HeaderCultureProvider" returned the following unsupported cultures '["pl-PL,pl;q=0.9,en-US;q=0.8,en;q=0.7"]'.
+2019-01-12 16:45:03.026 +01:00 [Warning] "HeaderCultureProvider" returned the following unsupported UI Cultures '["pl-PL,pl;q=0.9,en-US;q=0.8,en;q=0.7"]'.
+2019-01-12 16:45:03.041 +01:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing action "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)"
+2019-01-12 16:45:03.150 +01:00 [Information] Executing action method "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" - Validation state: Valid
+2019-01-12 16:45:03.152 +01:00 [Information] Executed action method "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.4892ms.
+2019-01-12 16:45:03.175 +01:00 [Information] Executing ViewResult, running view "Index".
+2019-01-12 16:45:03.228 +01:00 [Information] Executed ViewResult - view "Index" executed in 62.6277ms.
+2019-01-12 16:45:03.228 +01:00 [Information] Executed action "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" in 187.4952ms
+2019-01-12 16:45:03.233 +01:00 [Information] Request finished in 428.2135ms 200 text/html; charset=utf-8
+2019-01-12 16:45:03.237 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost/ace/runtime.js  
+2019-01-12 16:45:03.237 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost/ace/styles.js  
+2019-01-12 16:45:03.238 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost/ace/polyfills.js  
+2019-01-12 16:45:03.240 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost/ace/scripts.js  
+2019-01-12 16:45:03.252 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost/ace/main.js  
+2019-01-12 16:45:03.267 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost/ace/vendor.js  
+2019-01-12 16:45:03.270 +01:00 [Information] The file "/main.js" was not modified
+2019-01-12 16:45:03.270 +01:00 [Information] The file "/vendor.js" was not modified
+2019-01-12 16:45:03.270 +01:00 [Information] The file "/styles.js" was not modified
+2019-01-12 16:45:03.270 +01:00 [Information] The file "/runtime.js" was not modified
+2019-01-12 16:45:03.270 +01:00 [Information] The file "/scripts.js" was not modified
+2019-01-12 16:45:03.270 +01:00 [Information] The file "/polyfills.js" was not modified
+2019-01-12 16:45:03.271 +01:00 [Information] Request finished in 18.7966ms 304 application/javascript
+2019-01-12 16:45:03.271 +01:00 [Information] Request finished in 4.3864ms 304 application/javascript
+2019-01-12 16:45:03.271 +01:00 [Information] Request finished in 32.8797ms 304 application/javascript
+2019-01-12 16:45:03.271 +01:00 [Information] Request finished in 31.3508ms 304 application/javascript
+2019-01-12 16:45:03.271 +01:00 [Information] Request finished in 34.096ms 304 application/javascript
+2019-01-12 16:45:03.271 +01:00 [Information] Request finished in 34.7283ms 304 application/javascript
+2019-01-12 16:45:04.033 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost/ace/assets/langs/i18n/pl.json  
+2019-01-12 16:45:04.033 +01:00 [Information] The file "/assets/langs/i18n/pl.json" was not modified
+2019-01-12 16:45:04.033 +01:00 [Information] Request finished in 0.4718ms 304 application/json
+2019-01-12 16:45:05.572 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost/ace/default~course-paths~courses~pages-user-paths.js  
+2019-01-12 16:45:05.572 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost/ace/pages-user-paths.js  
+2019-01-12 16:45:05.572 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost/ace/common.js  
+2019-01-12 16:45:05.572 +01:00 [Information] The file "/pages-user-paths.js" was not modified
+2019-01-12 16:45:05.572 +01:00 [Information] The file "/common.js" was not modified
+2019-01-12 16:45:05.572 +01:00 [Information] Request finished in 0.2679ms 304 application/javascript
+2019-01-12 16:45:05.572 +01:00 [Information] Request finished in 0.2389ms 304 application/javascript
+2019-01-12 16:45:05.572 +01:00 [Information] The file "/default~course-paths~courses~pages-user-paths.js" was not modified
+2019-01-12 16:45:05.573 +01:00 [Information] Request finished in 0.6328ms 304 application/javascript
+2019-01-12 16:48:30.794 +01:00 [Information] User profile not available. Using '"HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ASP.NET\4.0.30319.0\AutoGenKeys\S-1-5-82-3006700770-424185619-1745488364-794895919-4004696415\DataProtection"' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-01-12 16:48:31.208 +01:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost/ace  0
+2019-01-12 16:48:31.208 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost/ace  
+2019-01-12 16:48:31.238 +01:00 [Information] Request finished in 25.7603ms 200 
+2019-01-12 16:48:31.421 +01:00 [Warning] "HeaderCultureProvider" returned the following unsupported cultures '["pl-PL,pl;q=0.9,en-US;q=0.8,en;q=0.7"]'.
+2019-01-12 16:48:31.422 +01:00 [Warning] "HeaderCultureProvider" returned the following unsupported UI Cultures '["pl-PL,pl;q=0.9,en-US;q=0.8,en;q=0.7"]'.
+2019-01-12 16:48:31.439 +01:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing action "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)"
+2019-01-12 16:48:31.559 +01:00 [Error] 
+2019-01-12 16:48:31.562 +01:00 [Information] Executed action "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" in 121.6507ms
+2019-01-12 16:48:31.582 +01:00 [Error] An unhandled exception has occurred while executing the request.
+System.Exception: AAA
+   at Aceout.Web.Filters.ModelValidationFilterAttribute.OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next) in D:\Programowanie\C#\aceout\Aceout.Web\Filters\ModelValidationFilterAttribute.cs:line 21
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ExceptionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Aceout.Web.Localization.GetRoutesMiddleware.Invoke(HttpContext httpContext) in D:\Programowanie\C#\aceout\Aceout.Web\Localization\GetRoutesMiddleware.cs:line 36
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-01-12 16:48:31.616 +01:00 [Information] Request finished in 409.8598ms 500 text/html; charset=utf-8
+2019-01-12 16:50:19.232 +01:00 [Information] User profile not available. Using '"HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ASP.NET\4.0.30319.0\AutoGenKeys\S-1-5-82-3006700770-424185619-1745488364-794895919-4004696415\DataProtection"' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-01-12 16:50:19.648 +01:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost/ace  0
+2019-01-12 16:50:19.648 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost/ace  
+2019-01-12 16:50:19.680 +01:00 [Information] Request finished in 27.2235ms 200 
+2019-01-12 16:50:19.908 +01:00 [Warning] "HeaderCultureProvider" returned the following unsupported cultures '["pl-PL,pl;q=0.9,en-US;q=0.8,en;q=0.7"]'.
+2019-01-12 16:50:19.909 +01:00 [Warning] "HeaderCultureProvider" returned the following unsupported UI Cultures '["pl-PL,pl;q=0.9,en-US;q=0.8,en;q=0.7"]'.
+2019-01-12 16:50:19.926 +01:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing action "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)"
+2019-01-12 16:50:20.031 +01:00 [Information] Executing action method "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" - Validation state: Valid
+2019-01-12 16:50:22.494 +01:00 [Error] 
+2019-01-12 16:50:22.501 +01:00 [Information] Executed action "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" in 2570.7086ms
+2019-01-12 16:50:22.527 +01:00 [Error] An unhandled exception has occurred while executing the request.
+System.Exception: AA
+   at Aceout.WebUI.Controllers.HomeController.Index() in D:\Programowanie\C#\aceout\Aceout.WebUI\Controllers\HomeController.cs:line 15
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ExceptionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Aceout.Web.Localization.GetRoutesMiddleware.Invoke(HttpContext httpContext) in D:\Programowanie\C#\aceout\Aceout.Web\Localization\GetRoutesMiddleware.cs:line 36
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-01-12 16:50:22.575 +01:00 [Information] Request finished in 2928.7524ms 500 text/html; charset=utf-8
+2019-01-12 16:52:06.259 +01:00 [Information] User profile not available. Using '"HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ASP.NET\4.0.30319.0\AutoGenKeys\S-1-5-82-3006700770-424185619-1745488364-794895919-4004696415\DataProtection"' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-01-12 16:52:06.889 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost/ace  
+2019-01-12 16:52:06.889 +01:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost/ace  0
+2019-01-12 16:52:06.918 +01:00 [Information] Request finished in 29.1023ms 200 
+2019-01-12 16:52:07.104 +01:00 [Warning] "HeaderCultureProvider" returned the following unsupported cultures '["pl-PL,pl;q=0.9,en-US;q=0.8,en;q=0.7"]'.
+2019-01-12 16:52:07.105 +01:00 [Warning] "HeaderCultureProvider" returned the following unsupported UI Cultures '["pl-PL,pl;q=0.9,en-US;q=0.8,en;q=0.7"]'.
+2019-01-12 16:52:07.121 +01:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing action "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)"
+2019-01-12 16:52:07.203 +01:00 [Information] Executing action method "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" - Validation state: Valid
+2019-01-12 16:52:10.425 +01:00 [Error] 
+2019-01-12 16:52:10.428 +01:00 [Information] Executed action "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" in 3305.5542ms
+2019-01-12 16:52:10.450 +01:00 [Error] An unhandled exception has occurred while executing the request.
+System.Exception: AA
+   at Aceout.WebUI.Controllers.HomeController.Index() in D:\Programowanie\C#\aceout\Aceout.WebUI\Controllers\HomeController.cs:line 15
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ExceptionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Aceout.Web.Localization.GetRoutesMiddleware.Invoke(HttpContext httpContext) in D:\Programowanie\C#\aceout\Aceout.Web\Localization\GetRoutesMiddleware.cs:line 36
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-01-12 16:52:10.483 +01:00 [Information] Request finished in 3595.8105ms 500 text/html; charset=utf-8
+2019-01-12 16:52:18.890 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost/ace  
+2019-01-12 16:52:18.891 +01:00 [Warning] "HeaderCultureProvider" returned the following unsupported cultures '["pl-PL,pl;q=0.9,en-US;q=0.8,en;q=0.7"]'.
+2019-01-12 16:52:18.891 +01:00 [Warning] "HeaderCultureProvider" returned the following unsupported UI Cultures '["pl-PL,pl;q=0.9,en-US;q=0.8,en;q=0.7"]'.
+2019-01-12 16:52:18.891 +01:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing action "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)"
+2019-01-12 16:52:18.909 +01:00 [Information] Executing action method "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" - Validation state: Valid
+2019-01-12 16:52:30.252 +01:00 [Error] 
+2019-01-12 16:52:30.254 +01:00 [Information] Executed action "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" in 11362.726ms
+2019-01-12 16:52:30.310 +01:00 [Error] An unhandled exception has occurred while executing the request.
+System.Exception: AA
+   at Aceout.WebUI.Controllers.HomeController.Index() in D:\Programowanie\C#\aceout\Aceout.WebUI\Controllers\HomeController.cs:line 15
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ExceptionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Aceout.Web.Localization.GetRoutesMiddleware.Invoke(HttpContext httpContext) in D:\Programowanie\C#\aceout\Aceout.Web\Localization\GetRoutesMiddleware.cs:line 36
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-01-12 16:52:30.334 +01:00 [Information] Request finished in 11443.8773ms 500 text/html; charset=utf-8
+2019-01-12 18:58:56.436 +01:00 [Information] User profile not available. Using '"HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ASP.NET\4.0.30319.0\AutoGenKeys\S-1-5-82-3006700770-424185619-1745488364-794895919-4004696415\DataProtection"' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-01-12 18:58:56.645 +01:00 [Fatal] Application startup exception
+Autofac.Core.DependencyResolutionException: An error occurred during the activation of a particular registration. See the inner exception for details. Registration: Activator = IImageCache (DelegateActivator), Services = [SixLabors.ImageSharp.Web.Caching.IImageCache], Lifetime = Autofac.Core.Lifetime.RootScopeLifetime, Sharing = Shared, Ownership = OwnedByLifetimeScope ---> The folder 'wwwroot' that contains the web-servable application content files is missing. Please add this folder to the application root to allow caching.
+Parameter name: WebRootPath (See inner exception for details.) ---> System.ArgumentNullException: The folder 'wwwroot' that contains the web-servable application content files is missing. Please add this folder to the application root to allow caching.
+Parameter name: WebRootPath
+   at SixLabors.ImageSharp.Web.Guard.NotNull[T](T target, String parameterName, String message)
+   at SixLabors.ImageSharp.Web.Guard.NotNullOrWhiteSpace(String target, String parameterName, String message)
+   at SixLabors.ImageSharp.Web.Caching.PhysicalFileSystemCache..ctor(IHostingEnvironment environment, MemoryAllocator memoryAllocator, IOptions`1 options)
+   at Aceout.WebUI.Startup.<>c__DisplayClass16_0.<ConfigureServices>b__9(IServiceProvider pr) in D:\Programowanie\C#\aceout\Aceout.WebUI\Startup.cs:line 213
+   at Autofac.Core.Activators.Delegate.DelegateActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters)
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters)
+   at Autofac.Core.Lifetime.LifetimeScope.GetOrCreateAndShare(Guid id, Func`1 creator)
+   at Autofac.Core.Resolving.InstanceLookup.Execute()
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, IComponentRegistration registration, IEnumerable`1 parameters)
+   at Autofac.Core.Resolving.ResolveOperation.Execute(IComponentRegistration registration, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass4_0.<UseMiddleware>b__0(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.Internal.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.BuildApplication()
+2019-01-12 18:58:56.942 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost/ace  
+2019-01-12 18:58:56.960 +01:00 [Information] Request finished in 17.958ms 500 text/html; charset=utf-8
+2019-01-12 18:59:13.493 +01:00 [Information] User profile not available. Using '"HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ASP.NET\4.0.30319.0\AutoGenKeys\S-1-5-82-3006700770-424185619-1745488364-794895919-4004696415\DataProtection"' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-01-12 18:59:36.082 +01:00 [Information] User profile not available. Using '"HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ASP.NET\4.0.30319.0\AutoGenKeys\S-1-5-82-3006700770-424185619-1745488364-794895919-4004696415\DataProtection"' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-01-12 18:59:36.276 +01:00 [Fatal] Application startup exception
+Autofac.Core.DependencyResolutionException: An error occurred during the activation of a particular registration. See the inner exception for details. Registration: Activator = IImageCache (DelegateActivator), Services = [SixLabors.ImageSharp.Web.Caching.IImageCache], Lifetime = Autofac.Core.Lifetime.RootScopeLifetime, Sharing = Shared, Ownership = OwnedByLifetimeScope ---> The folder 'wwwroot' that contains the web-servable application content files is missing. Please add this folder to the application root to allow caching.
+Parameter name: WebRootPath (See inner exception for details.) ---> System.ArgumentNullException: The folder 'wwwroot' that contains the web-servable application content files is missing. Please add this folder to the application root to allow caching.
+Parameter name: WebRootPath
+   at SixLabors.ImageSharp.Web.Guard.NotNull[T](T target, String parameterName, String message)
+   at SixLabors.ImageSharp.Web.Guard.NotNullOrWhiteSpace(String target, String parameterName, String message)
+   at SixLabors.ImageSharp.Web.Caching.PhysicalFileSystemCache..ctor(IHostingEnvironment environment, MemoryAllocator memoryAllocator, IOptions`1 options)
+   at Aceout.WebUI.Startup.<>c__DisplayClass16_0.<ConfigureServices>b__9(IServiceProvider pr) in D:\Programowanie\C#\aceout\Aceout.WebUI\Startup.cs:line 213
+   at Autofac.Core.Activators.Delegate.DelegateActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters)
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters)
+   at Autofac.Core.Lifetime.LifetimeScope.GetOrCreateAndShare(Guid id, Func`1 creator)
+   at Autofac.Core.Resolving.InstanceLookup.Execute()
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, IComponentRegistration registration, IEnumerable`1 parameters)
+   at Autofac.Core.Resolving.ResolveOperation.Execute(IComponentRegistration registration, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass4_0.<UseMiddleware>b__0(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.Internal.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.BuildApplication()
+2019-01-12 18:59:36.459 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost/ace  
+2019-01-12 18:59:36.471 +01:00 [Information] Request finished in 11.9844ms 500 text/html; charset=utf-8

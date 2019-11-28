@@ -1,0 +1,18 @@
+
+<aside class="sidebar" [ngClass]="{'hidden': isHidden}">
+  <div id="leftside-navigation" class="nano">
+    <ul class="nano-content">
+        <li *ngFor="let item of getMenuItems(menu)" [ngClass]="{'active': isSelected(item), 'sub-menu': item.children, 'opened-menu':isOpened(item) }">
+            <a *ngIf="!item.children" [routerLink]="[item.path]" ><span>{{item.name | translate}}</span></a>
+            <a *ngIf="item.children" href="javascript:void(0)" (click)="toggleOpened(item)"><span>{{item.name | translate}}</span><i class="arrow fa pull-right" [ngClass]="isOpened(item) ? 'fa-angle-down' : 'fa-angle-right'"></i></a>
+            <div [ngClass]="isOpened(item) ? 'opened' : 'closed'">
+              <ul *ngIf="item.children" >
+                <li *ngFor="let child of getMenuItems(item.children)" [ngClass]="{'active': isSelected(child)}" >
+                   <a [routerLink]="[child.path]"><span>{{child.name | translate}}</span></a>
+                </li>
+              </ul>
+            </div>
+        </li>
+    </ul>
+  </div>
+</aside>

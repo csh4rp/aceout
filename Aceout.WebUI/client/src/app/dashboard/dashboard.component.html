@@ -1,0 +1,6 @@
+<dashboard-top-bar (menuVisibilityChanged)="menuVisibilityChanged($event)"></dashboard-top-bar>
+<dashboard-side-menu [isHidden]="isMenuHidden"></dashboard-side-menu>
+<div style="margin-top:55px;" [ngStyle]="{'margin-left.px': isMenuHidden ? 0 : 240}">
+    <panel-messages></panel-messages>
+    <router-outlet></router-outlet>
+</div>

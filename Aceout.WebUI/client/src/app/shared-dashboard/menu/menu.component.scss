@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+@import url('//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css');
+
+
+
+.sidebar-toggle {
+  margin-left: -240px;
+}
+
+
+
+.sidebar {
+  top: 56px;
+  left: 0px;
+  width: 240px;
+  height: 100%;
+  background: #fafafa ;
+  z-index: 100;
+  position: fixed;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.5;
+  border-right: 1px #ddd solid;
+
+  #leftside-navigation {
+
+    .opened {
+      max-height:500px;         
+      -webkit-transition: max-height 0.5s cubic-bezier(0, 1, 0.5, 1);
+      -moz-transition: max-height 0.5s cubic-bezier(0, 1, 0.5, 1);
+      -o-transition: max-height 0.5s cubic-bezier(0, 1, 0.5, 1);
+      transition: max-height 0.5s cubic-bezier(0, 1, 0.5, 1);
+    }
+    
+    .closed{
+      max-height: 0; 
+    }
+
+    ul, ul ul {
+      margin: -2px 0 0;
+      padding: 0;
+    }
+
+
+
+
+    ul {
+
+
+      li {
+        list-style-type: none;
+        border-bottom: 1px solid rgba(255,255,255,.05);
+
+        a:hover{
+          background-color: #ddd;
+        }
+
+        div{
+          overflow: hidden;
+        }
+
+        &:not(.sub-menu).active{
+          a{
+            background-color: #ddd;
+            color:purple;
+          }
+        }
+
+        &.active {
+
+
+          ul {
+            display: block;
+            li.active{
+              background-color: #ddd;
+            }
+          }
+        }
+
+        a {
+          color: #444;
+          text-decoration: none;
+          display: block;
+          padding: 18px 0 18px 25px;
+          font-size: 14px;
+          outline: 0;
+          -webkit-transition: all 200ms ease-in;
+          -moz-transition: all 200ms ease-in;
+          -o-transition: all 200ms ease-in;
+          -ms-transition: all 200ms ease-in;
+          transition: all 200ms ease-in;
+
+          span {
+            display: inline-block;
+          }
+
+          i {
+            width: 20px;
+
+            .fa-angle-left, .fa-angle-right {
+              padding-top: 3px;
+            }
+          }
+        }
+      }
+    }
+
+
+    ul ul {
+      overflow:hidden;
+
+      li {
+        background: #eee;
+        margin-bottom: 0;
+        margin-left: 0;
+        margin-right: 0;
+        border-bottom: none;
+
+        a {
+          font-size: 12px;
+          padding-top: 13px;
+          padding-bottom: 13px;
+          color: #444;
+
+          &:hover{
+            color: #444;
+          }
+        }
+
+
+      }
+    }
+  }
+}
+
+.hidden{
+  left: -240px;
+}
+
+.opened-menu{
+  background-color: #eee;
+}
+

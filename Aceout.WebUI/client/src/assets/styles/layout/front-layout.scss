@@ -1,0 +1,15 @@
+.main-content{
+    margin: 20px 80px 0 80px;
+
+    @media screen and (max-width: 1024px) {
+        margin: 20px 20px;
+    }
+}
+
+.tab-content-container{
+    margin: 20px;
+}
+
+.element-container{
+    margin: 20px;
+}

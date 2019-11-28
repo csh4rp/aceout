@@ -1,0 +1,14 @@
+<div class="d-flex flex-wrap align-items-top flex-row">
+    <div *ngFor="let info$ of infos$ | async" class="card" style="max-width:820px; width:100%">
+        <div class="card-header">
+            <h5>{{info$.title}}</h5>
+        </div>
+        <div class="card-body">
+            <p class="card-text" [innerHTML]="info$.content"></p>
+
+        </div>
+        <div class="card-footer text-muted">
+            {{info$.author}}
+        </div>
+    </div>
+</div>

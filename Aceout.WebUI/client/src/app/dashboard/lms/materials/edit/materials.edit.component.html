@@ -1,0 +1,68 @@
+<div class="component-panel">
+        <form [formGroup]="dataForm" (ngSubmit)="saveChanges()">
+                <div class="header">
+                        <h5>{{titleText | translate}}</h5>
+                </div>
+                <div class="toolbar">
+                        <toolbar-item [text]="'Back'" [type]="'button'" [icon]="'arrow-left'" [color]="'white'" (click)="back()"></toolbar-item>
+                        <toolbar-item [text]="submitText" [type]="'submit'" [icon]="'plus'" [color]="'white'"></toolbar-item>
+                </div>
+                <div class="form-container">
+                        <div class="input-container">
+                                <mat-form-field class="text-input">
+                                        <input matInput formControlName="name" placeholder="{{'Name' | translate}}"
+                                                required />
+                                        <mat-error *ngIf="form['name'].errors?.required">{{'Field is required' |
+                                                translate}}</mat-error>
+                                </mat-form-field>
+                        </div>
+                        <div class="input-container">
+                                <mat-form-field class="text-input">
+                                        <mat-select placeholder="{{'Material type' | translate}}" formControlName="type"
+                                                (selectionChange)="typeChanged($event.source.value)" required>
+                                                <mat-option *ngFor="let type of materialTypes" [value]="type.value">
+                                                        {{type.text | translate}}
+                                                </mat-option>
+                                        </mat-select>
+                                </mat-form-field>
+                        </div>
+                        <div class="input-container">
+                                <mat-form-field class="text-input">
+                                        <mat-select placeholder="{{'Material category' | translate}}" formControlName="categoryId"
+                                                required>
+                                                <mat-option *ngFor="let category of categories$ | async" [value]="category.id">
+                                                        {{category.name}}
+                                                </mat-option>
+                                        </mat-select>
+                                </mat-form-field>
+                        </div>
+                        <div class="input-container">
+                                <mat-checkbox formControlName="isActive">{{'Is active' | translate}}</mat-checkbox>
+                        </div>
+                        <div class="offset-top">
+                                <mat-accordion>
+                                        <mat-expansion-panel>
+                                                <mat-expansion-panel-header>
+                                                        <mat-panel-title>
+                                                                {{'Content' | translate}}
+                                                        </mat-panel-title>
+
+                                                </mat-expansion-panel-header>
+                                                <editor id="textarea" formControlName="content" [init]="settings"></editor>
+                                        </mat-expansion-panel>
+                                        <mat-expansion-panel>
+                                                <mat-expansion-panel-header>
+                                                        <mat-panel-title>
+                                                                {{'Material data' | translate}}
+                                                        </mat-panel-title>
+                                                </mat-expansion-panel-header>
+                                                <ng-template material-template></ng-template>
+                                        </mat-expansion-panel>
+                                </mat-accordion>
+                        </div>
+
+
+
+                </div>
+        </form>
+</div>

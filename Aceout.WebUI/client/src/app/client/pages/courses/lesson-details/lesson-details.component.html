@@ -1,0 +1,72 @@
+<div *ngIf="lesson$ | async as lesson" class="card">
+    <div class="card-header">
+        <h5>{{lesson.name}}</h5>
+    </div>
+    <div class="card-body">
+        <div class="row">
+            <div class="col-sm-12 col-md-7">
+                <div [innerHTML]="lesson.description"></div>
+            </div>
+            <div class="col-sm-12 col-md-5">
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <td>{{'Attempt' | translate}}</td>
+                            <td>{{getLessonAttempt(lesson)}}</td>
+                        </tr>
+                        <tr>
+                            <td>{{'Started date' | translate}}</td>
+                            <td>{{lesson.startedDate | localdate}}</td>
+                        </tr>
+                        <tr>
+                            <td>{{'Completed date' | translate}}</td>
+                            <td>{{lesson.completedDate | localdate}}</td>
+                        </tr>
+                        <tr>
+                            <td>{{'Lesson result' | translate}}</td>
+                            <td *ngIf="lesson.result">{{lesson.result| percent}}</td>
+                            <td *ngIf="!lesson.result">-</td>
+                        </tr>
+                        <tr>
+                            <td>{{'Elements count' | translate}}</td>
+                            <td>{{lesson.elementCount}}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div>
+            <button *ngIf="!lesson.startedDate" class="btn btn-primary btn-sm" type="button" (click)="startLesson()">
+                {{'Begin lesson' | translate}}
+            </button>
+            <button *ngIf="lesson.startedDate && !lesson.completedDate" class="btn btn-primary btn-sm" type="button"
+                (click)="continueLesson()">
+                {{'Continue' | translate}}
+            </button>
+            <button *ngIf="lesson.completedDate" class="btn btn-primary btn-sm" type="button"
+                (click)="checkAnswers()">
+                {{'Check answers' | translate}}
+            </button>
+        </div>
+        <div>
+            <div id="accordion" *ngIf="lesson && lesson.previousAttempts && lesson.previousAttempts.length">
+                <div *ngFor="let prevLesson of lesson.previousAttempts" class="card">
+                    <div class="card-header" id="headingOne">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" data-toggle="collapse" data-target="'#collapse' + prevLesson.userLessonId"
+                                aria-expanded="true" aria-controls="collapseOne">
+                                {{'Attempt number' | translate:prevLesson.attempt}}
+                            </button>
+                        </h5>
+                    </div>
+
+                    <div id="'collapse' + prevLesson.userLessonId" class="collapse show" aria-labelledby="'heading' + prevLesson.id"
+                        data-parent="#accordion">
+                        <div class="card-body">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

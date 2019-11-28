@@ -1,0 +1,26 @@
+<div class="component-panel">
+    <div class="header">
+        <h5>{{titleText | translate}}</h5>
+    </div>
+    <form [formGroup]="dataForm" (ngSubmit)="onSubmit()">
+        <div class="toolbar">
+            <toolbar-item [text]="'Back'" [type]="'button'" [icon]="'arrow-left'" [color]="'white'" (click)="back()"></toolbar-item>
+            <toolbar-item [type]="'submit'" [text]="submitText" [icon]="'plus'" [color]="'steelblue'"></toolbar-item>
+        </div>
+        <div class="tabs-container">
+            <div>
+                <div class="input-container">
+                    <mat-form-field class="text-input">
+                        <input type="text" matInput placeholder="{{'Name' | translate}}" formControlName="name" />
+                        <mat-error *ngIf="form['name'].errors?.required">{{'Field is required' | translate}}</mat-error>
+                    </mat-form-field>
+                </div>
+                <div *ngFor="let permission of permissionControls.controls; let i = index;" formArrayName="permissions">
+                    <mat-checkbox [formControl]="permission">{{permission.name | translate}}</mat-checkbox>
+                </div>
+
+            </div>
+        </div>
+
+    </form>
+</div>

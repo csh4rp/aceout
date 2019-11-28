@@ -1,0 +1,6 @@
+<mat-form-field class="text-input">
+    <input type="text" matInput placeholder="{{label | translate}}" [formControl]="control" [required]="required ? 'required' : false" />
+    <mat-error *ngFor="let error of errors">
+        {{error | translate}}
+    </mat-error>
+</mat-form-field>

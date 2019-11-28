@@ -1,0 +1,62 @@
+<div class="component-panel">
+    <div class="header">
+        <h5>{{titleText | translate}}</h5>
+    </div>
+    <form [formGroup]="dataForm" (ngSubmit)="saveChanges()">
+        <div class="toolbar">
+            <toolbar-item [text]="'Back'" [type]="'button'" [icon]="'arrow-left'" [color]="'white'" (click)="back()"></toolbar-item>
+            <toolbar-item [text]="submitText" [type]="'submit'" [icon]="'plus'" [color]="'white'"></toolbar-item>
+        </div>
+        <div class="tabs-container">
+            <mat-tab-group>
+                <mat-tab label="{{'User data' | translate}}">
+                    <div class="tab-body">
+                        <div class="input-container">
+                            <mat-form-field class="text-input">
+                                <input type="text" matInput placeholder="{{'Email' | translate}}"  formControlName="email"/>
+                                <mat-error *ngIf="form['email'].errors?.required">{{'Field is required' | translate}}</mat-error>
+                                <mat-error *ngIf="form['email'].errors?.email">{{'Invalid email address' | translate}}</mat-error>
+                            </mat-form-field>
+                        </div>
+                        <div class="input-container">
+                            <mat-form-field class="text-input">
+                                <input type="text" matInput placeholder="{{'Username' | translate}}" formControlName="userName"/>
+                                <mat-error *ngIf="form['userName'].errors?.required">{{'Field is required' | translate}}</mat-error>
+                            </mat-form-field>
+                        </div>
+                        <div class="input-container">
+                            <mat-form-field class="text-input">
+                                <input type="text" matInput placeholder="{{'First Name' | translate}}" formControlName="firstName"/>
+                                <mat-error *ngIf="form['firstName'].errors?.required">{{'Field is required' | translate}}</mat-error>
+                            </mat-form-field>
+                        </div>
+                        <div class="input-container">
+                            <mat-form-field class="text-input">
+                                <input type="text" matInput placeholder="{{'Last Name' | translate}}" formControlName="lastName" />
+                                <mat-error *ngIf="form['lastName'].errors?.required">{{'Field is required' | translate}}</mat-error>
+                            </mat-form-field>
+                        </div>
+                        <div class="input-container">
+                            <mat-form-field class="text-input">
+                                <input type="password" matInput placeholder="{{'Password' | translate}}" formControlName="password" />
+                            </mat-form-field>
+                        </div>
+                        <div class="input-container">
+                            <mat-form-field class="text-input">
+                                <input type="text" matInput placeholder="{{'Phone number' | translate}}" formControlName="phoneNumber" />
+                            </mat-form-field>
+                        </div>
+                    </div>
+                </mat-tab>
+                <mat-tab label="{{'Permissions' | translate}}">
+                    <div class="tab-body">
+                        <div *ngFor="let role of roleControls.controls; let i = index;" formArrayName="roles">
+                            <mat-checkbox [formControl]="role">{{role.name | translate}}</mat-checkbox>
+                        </div>
+                    </div>
+                </mat-tab>
+            </mat-tab-group>
+        </div>
+    </form>
+
+</div>

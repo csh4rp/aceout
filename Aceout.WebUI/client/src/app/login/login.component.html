@@ -1,0 +1,27 @@
+<div class="login-component">
+  <div class="centered-container card">
+    <div class="card-header">
+      <p>{{'singin' | translate}}</p>
+    </div>
+    <div class="card-body">
+      <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+        <div class="form-group">
+          <label for="username">{{'userName' | translate}}</label>
+          <input type="text" class="form-control" id="username" formControlName="username" />
+          <span *ngIf="form.username.touched && form.username.errors?.required" class="validation-message">{{'field is required' | translate }}</span>
+        </div>
+        <div class="form-group">
+          <label for="password">{{'password' | translate}}</label>
+          <input type="password" class="form-control" id="password" formControlName="password" />
+        </div>
+  
+        <div class="button-container">
+          <button type="submit" class="btn btn-primary">{{'signin' | translate}}</button>
+        </div>
+      </form>
+      <ul *ngIf="errors">
+        <li *ngFor="let error of errors">{{error}}</li>
+      </ul>
+    </div>
+  </div>
+</div>

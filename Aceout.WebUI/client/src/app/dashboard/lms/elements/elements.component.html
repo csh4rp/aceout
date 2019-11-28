@@ -1,0 +1,10 @@
+
+        <div class="single-tab">
+                <ag-grid-angular [columnDefs]="columns" class="ag-theme-balham" [enableSorting]="true" [rowSelection]="'single'"
+                        (gridReady)="gridReady($event)" [frameworkComponents]="frameworkComponents" (selectionChanged)="onSelectionChanged($event)"
+                         [infiniteInitialRowCount]="1" [maxBlocksInCache]="2"
+                        [cacheOverflowSize]="2" [rowModelType]="'infinite'" [enableServerSideSorting]="true"
+                        [paginationPageSize]="20" style="height: 600px;"></ag-grid-angular>
+        </div>
+        <button mat-button [mat-dialog-close]='data'>{{'Select' | translate}}</button>
+        <button mat-button [mat-dialog-close]='false'>{{'Cancel' | translate}}</button>

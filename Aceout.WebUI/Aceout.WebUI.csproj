@@ -1,0 +1,86 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <TypeScriptCompileBlocked>true</TypeScriptCompileBlocked>
+    <TypeScriptToolsVersion>2.8</TypeScriptToolsVersion>
+    <IsPackable>false</IsPackable>
+    <UserSecretsId>c1af00a1-920f-4206-a24c-7bba71db26a3</UserSecretsId>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>C:\Programowanie\Aceout\Aceout.WebUI\Aceout.WebUI.xml</DocumentationFile>
+    <OutputPath>bin\Debug\netcoreapp2.2\</OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="ClientApp\**" />
+    <Compile Remove="client\src\app\dashboard\materials\templates\**" />
+    <Content Remove="ClientApp\**" />
+    <Content Remove="client\src\app\dashboard\materials\templates\**" />
+    <EmbeddedResource Remove="ClientApp\**" />
+    <EmbeddedResource Remove="client\src\app\dashboard\materials\templates\**" />
+    <None Remove="ClientApp\**" />
+    <None Remove="client\src\app\dashboard\materials\templates\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="Views\FileSystem\elfinder.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Alexinea.Autofac.Extensions.DependencyInjection" Version="4.2.0" />
+    <PackageReference Include="AutoMapper" Version="8.0.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="6.0.0" />
+    <PackageReference Include="elFinder.NetCore" Version="1.1.0" />
+    <PackageReference Include="FluentEmail.Mailgun" Version="2.5.3" />
+    <PackageReference Include="Hangfire" Version="1.6.21" />
+    <PackageReference Include="HangFire.Redis.StackExchange" Version="1.8.0" />
+    <PackageReference Include="MediatR" Version="6.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.1.7" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="3.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.ResponseCaching" Version="2.2.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.0" />
+    <PackageReference Include="Sentry" Version="1.1.1" />
+    <PackageReference Include="Sentry.AspNetCore" Version="1.1.1" />
+    <PackageReference Include="Serilog.AspNetCore" Version="2.1.1" />
+    <PackageReference Include="Serilog.Extensions.Logging" Version="2.0.2" />
+    <PackageReference Include="Serilog.Settings.Configuration" Version="3.0.1" />
+    <PackageReference Include="Serilog.Sinks.File" Version="4.0.0" />
+    <PackageReference Include="SixLabors.ImageSharp.Web" Version="1.0.0-beta0005" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="4.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Aceout.Application\Aceout.Application.csproj" />
+    <ProjectReference Include="..\Aceout.Infrastructure\Aceout.Infrastructure.csproj" />
+    <ProjectReference Include="..\Aceout.Migrations\Aceout.Migrations.csproj" />
+    <ProjectReference Include="..\Aceout.Web\Aceout.Web.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Areas\Administration\Data\" />
+    <Folder Include="Areas\Administration\Views\" />
+    <Folder Include="Areas\Cms\Data\" />
+    <Folder Include="Areas\Cms\Views\" />
+    <Folder Include="Areas\Lms\Data\" />
+    <Folder Include="Areas\Lms\Views\" />
+    <Folder Include="Areas\Organization\Data\" />
+    <Folder Include="Areas\Organization\Views\" />
+    <Folder Include="client\dist\" />
+    <Folder Include="client\src\assets\styles\helpers\" />
+    <Folder Include="Errors\Lms\" />
+    <Folder Include="wwwroot\assets\scripts\" />
+    <Folder Include="wwwroot\js\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Views\FileSystem\elfinder.cshtml" />
+  </ItemGroup>
+
+
+</Project>

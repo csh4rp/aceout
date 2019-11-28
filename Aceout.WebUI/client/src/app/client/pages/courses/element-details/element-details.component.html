@@ -1,0 +1,27 @@
+<div class="card">
+    <div class="card-header" *ngIf="element$ | async  as element">
+        <h5>{{element.materialName}}</h5>
+    </div>
+    <div class="card-body element-container">
+        <div *ngIf="element$ | async  as element">
+            <div [innerHTML]="element.materialContent"></div>
+        </div>
+        <div>
+            <ng-template element-template></ng-template>
+        </div>
+        <div>
+            <button *ngIf="hasNext$ | async" type="button" class="btn btn-dark float-right" (click)="navigateNext()">
+                {{'Next element' | translate}}
+            </button>
+            <button *ngIf="hasPrevious$ | async" type="button" class="btn btn-secondary float-right" (click)="navigatePrevious()">
+                {{'Previous element' | translate}}
+            </button>
+            <button *ngIf="!(hasNext$ | async) && !isPreviewMode" type="button" class="btn btn-dark float-right" (click)="finish()">
+                {{'Finish attempt' | translate}}
+            </button>
+            <button *ngIf="isPreviewMode" type="button" class="btn btn-primary float-right" (click)="return()">
+                    {{'Return to lesson' | translate}}
+                </button>
+        </div>
+    </div>
+</div>

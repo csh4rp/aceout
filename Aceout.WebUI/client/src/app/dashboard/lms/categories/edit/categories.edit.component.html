@@ -1,0 +1,19 @@
+<div class="component-panel">
+    <form [formGroup]="dataForm" (ngSubmit)="onSubmit()">
+        <div class="header">
+            <h5>{{titleText | translate}}</h5>
+        </div>
+        <div class="toolbar">
+            <toolbar-item [text]="'Back'" [type]="'button'" [icon]="'arrow-left'" [color]="'white'" (click)="back()"></toolbar-item>
+            <toolbar-item [text]="submitText" [type]="'submit'" [icon]="'plus'" [color]="'white'"></toolbar-item>
+        </div>
+        <div class="form-container">
+            <div class="input-container">
+                <mat-form-field class="text-input">
+                    <input matInput formControlName="name" placeholder="{{'Name' | translate}}" required />
+                    <mat-error *ngIf="form['name'].errors?.required">{{'Field is required' | translate}}</mat-error>
+                </mat-form-field>
+            </div>
+        </div>
+    </form>
+</div>

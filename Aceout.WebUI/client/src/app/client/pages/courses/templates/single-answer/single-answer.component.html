@@ -1,0 +1,13 @@
+<div class="single-answer-container">
+    <form [formGroup]="form" *ngIf="userElement">
+        <div *ngFor="let question of userElement.materialDataModels; let i = index;" class="single-answer-question">
+            <div class="form-check" [ngClass]="{'correct-item': isValid(question.id)}">
+                <input type="radio" [id]="'question' + question.id" formControlName="answer" class="form-check-input"
+                    [value]="question.id" [checked]="isChecked(question.id)" [attr.disabled]="isPreview ? '' : null">
+                <label class="form-check-label" [for]="'question' + question.id">
+                    {{question.content}}
+                </label>
+            </div>
+        </div>
+    </form>
+</div>

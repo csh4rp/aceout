@@ -1,0 +1,102 @@
+<div>
+    <div *ngIf="course$ | async as course" class="card">
+        <div class="card-header">
+            <h5>{{course.name}}</h5>
+        </div>
+        <div class="card-body">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home"
+                        aria-selected="true">{{'Course data' | translate}}</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile"
+                        aria-selected="false">{{'Previous attempts'}}</a>
+                </li>
+            </ul>
+            <div class="tab-content tab-content-container" id="myTabContent">
+                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6">
+                            <image [source]="course.pictureUrl"></image>
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                            <table class="table">
+                                <tbody>
+                                    <tr>
+                                        <td>{{'Attempt' | translate}}</td>
+                                        <td>{{getCourseAttempt(course)}}</td>
+                                    </tr>
+                                    <tr>
+                                        <td>{{'Started date' | translate}}</td>
+                                        <td>{{course.startedDate | localdate}}</td>
+                                    </tr>
+                                    <tr>
+                                        <td>{{'Completed date' | translate}}</td>
+                                        <td>{{course.completedDate | localdate}}</td>
+                                    </tr>
+                                    <tr>
+                                        <td>{{'Course result' | translate}}</td>
+                                        <td *ngIf="course.result">{{course.result| percent}}</td>
+                                        <td *ngIf="!course.result">-</td>
+                                    </tr>
+                                    <tr *ngIf="course.fromDate">
+                                        <td>{{'Accessible from' | translate}}</td>
+                                        <td>{{course.fromDate | localdate}}</td>
+                                    </tr>
+                                    <tr *ngIf="course.toDate">
+                                        <td>{{'Accessible to' | translate}}</td>
+                                        <td>{{course.toDate | localdate}}</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div>
+                        <button type="button" *ngIf="checkCanRestart(course)" class="btn btn-primary" (click)="startAgain(course)">
+                            {{'Start again' | translate}}
+                        </button>
+                    </div>
+                    <div [innerHTML]="course.description" class="offset-top"></div>
+
+                    <div>
+                        <ul class="list-group">
+                            <li *ngFor="let lesson of course.lessons" class="list-group-item">
+                                <a [routerLink]="[ '/courses', course.courseId, lesson.lessonId ]">{{lesson.name}}</a>
+                                <span *ngIf="lesson.result" class="badge badge-pill float-right"
+                                    [ngClass]="{'badge-success': lesson.isPassed, 'badge-danger' : !lesson.isPassed}">{{lesson.result | percent}}</span>
+                                <span *ngIf="!lesson.result && !lesson.isStarted" class="badge badge-pill badge-primary float-right">{{'Not started' | translate}}</span>
+                                <span *ngIf="!lesson.result && lesson.isStarted" class="badge badge-pill badge-info float-right">{{'In progress' | translate}}</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                    <div id="accordion" *ngIf="course && course.previousAttempts && course.previousAttempts.length">
+                        <div *ngFor="let prevCourse of course.previousAttempts" class="card">
+                            <div class="card-header" id="headingOne">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link" data-toggle="collapse" data-target="'#collapse' + prevCourse.id"
+                                        aria-expanded="true" aria-controls="collapseOne">
+                                        {{'Attempt number' | translate:prevCourse.attempt}}
+                                    </button>
+                                </h5>
+                            </div>
+
+                            <div id="collapse{{prevCourse.id}}" class="collapse show" aria-labelledby="'heading' + prevCourse.id"
+                                data-parent="#accordion">
+                                <div class="card-body">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div *ngIf="!course.previousAttempts || !course.previousAttempts.length">
+                        <span>{{'No previous attempts' | translate}}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>

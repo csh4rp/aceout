@@ -1,0 +1,31 @@
+﻿CREATE TABLE Information
+(
+	Id INT NOT NULL AUTO_INCREMENT,
+	Language VARCHAR(2) NOT NULL,
+	UserId INT NOT NULL,
+	CreatedDate DATETIME(0) NOT NULL DEFAULT CURRENT_TIMESTAMP,
+	FromDate DATETIME(0) NULL,
+	ToDate DATETIME(0) NULL,
+	Title VARCHAR(255) NOT NULL,
+	Content TEXT NULL,
+	CONSTRAINT PK_Information PRIMARY KEY(Id),
+	CONSTRAINT FK_Information_User FOREIGN KEY(UserId)
+	REFERENCES User(Id) ON DELETE CASCADE
+);
+
+
+CREATE TABLE GroupInformation
+(
+	GroupId INT NOT NULL,
+	InformationId INT NOT NULL,
+	CONSTRAINT PK_GroupInformation PRIMARY KEY
+	(
+		GroupId,
+		InformationId
+	),
+	CONSTRAINT FK_GroupInformation_Group FOREIGN KEY(GroupId)
+	REFERENCES `Group`(Id) ON DELETE CASCADE,
+	CONSTRAINT FK_GroupInformation_Information FOREIGN KEY(InformationId)
+	REFERENCES Information(Id) ON DELETE CASCADE
+);
+

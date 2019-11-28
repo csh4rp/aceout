@@ -1,0 +1,19 @@
+<div class="card">
+        <h3 class="card-header">{{'Available courses' | translate}}</h3>
+        <div class="d-flex flex-wrap align-items-top flex-row justify-content-center">
+            <div class="card" *ngFor="let course of courses$  | async" style="width:340px;">
+                <a [routerLink]="getUrl(course)">
+                    <image [source]="course.pictureUrl" [width]="340" [height]="280"></image>
+                </a>
+                <div class="card-body">
+                    <a [routerLink]="getUrl(course)" class="card-link card-title">
+                        <h5 style="display:inline-block;">{{course.name}}</h5>
+                    </a>
+                    <div>
+                        <span *ngIf="course.startedDate" class="badge badge-info">{{'In progreess' | translate}}</span>
+                        <span *ngIf="!course.startedDate" class="badge badge-primary">{{'Not started' | translate}}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

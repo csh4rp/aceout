@@ -1,0 +1,15 @@
+<div class="component-panel">
+        <div class="header">
+                <h5>{{'Role management' | translate}}</h5>
+        </div>
+        <div class="toolbar">
+                <toolbar-item (click)="addRole()" [text]="'Add role'" [icon]="'plus'" [color]="'steelblue'"></toolbar-item>
+        </div>
+        <div class="single-tab">
+                <ag-grid-angular [columnDefs]="columns" class="ag-theme-balham" [enableSorting]="true"
+                        (gridReady)="onGridReady($event)" [frameworkComponents]="frameworkComponents"
+                        [suppressCellSelection]="true" [infiniteInitialRowCount]="1" [maxBlocksInCache]="2"
+                        [cacheOverflowSize]="2" [rowModelType]="'infinite'" [enableServerSideSorting]="true"
+                        [paginationPageSize]="20" style="height: 600px;"></ag-grid-angular>
+        </div>
+</div>

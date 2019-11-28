@@ -1,0 +1,99 @@
+
+.toolbar{
+    padding: 0px 20px;
+    background: white;
+    margin-top: 10px;
+    display: flex;
+
+  }
+
+.tabs-container{
+  padding: 0 20px;
+  background: white;
+}
+
+.single-tab{
+  padding: 20px 20px;
+}
+
+  .panel-tab-content{
+    display: none;
+    border-top: 1px solid #ddd;
+    padding: 50px 0px;
+
+    &.active{
+      display: block;
+    }
+  }
+
+
+  .tabs{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .filters{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      margin: 10px 0px 30px 0px;
+  }
+
+  .tab-header {
+    display: inline-block;
+    margin: 0 0 -1px;
+    padding: 20px 0px;
+    text-align: center;
+    color: #bbb;
+    border-collapse: collapse;
+    width:300px;
+
+    &.active{
+      color: #555;
+      border-bottom: 3px solid steelblue;
+    }
+
+    &:hover{
+      color: #888;
+      cursor: pointer;
+    }
+
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.5;
+
+  }
+
+  .header{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    padding: 20px 10px 10px 20px;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .grid{
+    height: 800px;
+  }
+
+  .component-panel{
+    margin: 100px 30px;
+    overflow: visible;
+    border: 1px solid rgba(0,0,0,.03);
+    box-shadow:  0 2px 2px rgba(0,0,0,.24), 0 0 2px rgba(0,0,0,.12);
+
+    .header{
+      background: rgba(0,0,0,.03);
+    }
+
+    .form-container{
+      padding: 20px;
+    }
+  }
+
+  .offset-top{
+    padding-top:30px;
+  }
+
+  .offset-bottom{
+    padding-bottom:30px;
+  }

@@ -1,0 +1,75 @@
+<div class="component-panel">
+    <form [formGroup]="form" (ngSubmit)="onSubmit()">
+        <div class="header">
+            <h5>{{titleText | translate}}</h5>
+        </div>
+        <div class="toolbar">
+            <toolbar-item [text]="'Back'" [type]="'button'" [icon]="'arrow-left'" [color]="'white'" (click)="back()"></toolbar-item>
+            <toolbar-item [text]="submitText" [type]="'submit'" [icon]="'plus'" [color]="'white'"></toolbar-item>
+        </div>
+        <div class="form-container">
+            <div class="input-container">
+                <mat-form-field class="text-input">
+                    <input matInput formControlName="name" placeholder="{{'Name' | translate}}" required />
+                </mat-form-field>
+            </div>
+            <div class="input-container">
+                <mat-form-field class="text-input">
+                    <mat-select placeholder="{{'Lesson type' | translate}}" formControlName="type">
+                        <mat-option *ngFor="let type of lessonTypes" [value]="type.key">
+                            {{type.value | translate}}
+                        </mat-option>
+                    </mat-select>
+                </mat-form-field>
+            </div>
+            <div class="input-container">
+                <mat-form-field class="text-input">
+                    <input type="number" matInput placeholder="{{'Attempt count' | translate}}" formControlName="attemptCount">
+                </mat-form-field>
+            </div>
+            <div class="input-container">
+                <mat-form-field class="text-input">
+                    <input type="number" matInput placeholder="{{'Pass threshold' | translate}}" formControlName="passThreshold">
+                    <span matSuffix>%</span>
+                </mat-form-field>
+            </div>
+            <div>
+                <mat-checkbox formControlName="isActive">{{'Is active' | translate}}</mat-checkbox>
+            </div>
+            <div>
+                <mat-checkbox formControlName="allowAnswerCheck">{{'Allow answer check' | translate}}</mat-checkbox>
+            </div>
+            <div>
+                <mat-checkbox formControlName="allowAnswerPreview">{{'Allow answer preview' | translate}}</mat-checkbox>
+            </div>
+
+            <div class="offset-top">
+                <mat-accordion>
+                    <mat-expansion-panel>
+                        <mat-expansion-panel-header>
+                            <mat-panel-title>
+                                {{'Description' | translate}}
+                            </mat-panel-title>
+
+                        </mat-expansion-panel-header>
+                        <editor formControlName="description" [init]="settings"></editor>
+                    </mat-expansion-panel>
+                    <mat-expansion-panel>
+                        <mat-expansion-panel-header>
+                            <mat-panel-title>
+                                {{'Elements' | translate}}
+                            </mat-panel-title>
+                        </mat-expansion-panel-header>
+                        <div class="offset-bottom">
+                            <button type="button" mat-raised-button color="primary" (click)="openDialog()">{{'Add element' | translate}}</button>
+                        </div>
+                        <ag-grid-angular #groupsGrid style="width: 100%; height: 300px;" id="lessonGrid" class="ag-theme-balham"
+                            [columnDefs]="columns" [frameworkComponents]="frameworkComponents" [animateRows]="true"
+                            [rowSelection]="true" (gridReady)="gridReady($event)" [components]="components"
+                            [getRowNodeId]="getRowNodeId"></ag-grid-angular>
+                    </mat-expansion-panel>
+                </mat-accordion>
+            </div>
+        </div>
+    </form>
+</div>

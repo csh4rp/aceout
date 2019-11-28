@@ -1,0 +1,51 @@
+
+@import '~bootstrap/dist/css/bootstrap.css';
+@import '~ag-grid-community/dist/styles/ag-grid.css';
+@import '~ag-grid-community/dist/styles/ag-theme-balham.css';
+@import '~ag-grid-community/dist/styles/ag-theme-bootstrap.css';
+@import '~pretty-checkbox/src/pretty-checkbox.scss';
+
+@import 'layout/panel.scss';
+@import 'partials/forms.scss';
+@import 'layout/tabs.scss';
+@import 'layout/cards.scss';
+@import 'layout/front-layout.scss';
+
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import "~tinymce/skins/lightgray/skin.min.css";
+@import "~tinymce/skins/lightgray/content.min.css";
+@import "../../vendor/elfinder/css/elfinder.full.css";
+@import "../../vendor/elfinder/css/theme.css";
+@import "~tinymce/skins/lightgray/skin.min.css";
+@import "~tinymce/skins/lightgray/content.min.css";
+@import "~jquery-ui-dist/jquery-ui.min.css";
+@import "~jquery-ui-dist/jquery-ui.structure.min.css";
+@import "~jquery-ui-dist/jquery-ui.theme.min.css";
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+.card{
+  margin: 20px;
+}
+
+.default-input{
+  max-width: 300px;
+}
+
+.hide{
+  display: none;
+}
+
+
+label.col-form-label{
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+
+.btn-container{
+  margin-left: 20px;
+}
+
+

@@ -1,0 +1,87 @@
+<div class="component-panel">
+    <form [formGroup]="dataForm" (ngSubmit)="onSubmit()">
+        <div class="header">
+            <h5>{{titleText | translate}}</h5>
+        </div>
+        <div class="toolbar">
+            <toolbar-item [text]="'Back'" [type]="'button'" [icon]="'arrow-left'" [color]="'white'" (click)="back()"></toolbar-item>
+            <toolbar-item [text]="submitText" [type]="'submit'" [icon]="'plus'" [color]="'white'"></toolbar-item>
+            <toolbar-item [text]="'Check report'" [type]="'button'" [icon]="'chart-bar'" [color]="'white'" (click)="navigateToReports()"></toolbar-item>
+        </div>
+        <div class="tabs-container">
+            <mat-tab-group>
+                <mat-tab label="{{'Course data' | translate}}">
+                    <div class="form-container">
+                        <div class="input-container">
+                            <mat-form-field class="text-input">
+                                <input matInput formControlName="name" placeholder="{{'Name' | translate}}" required />
+                            </mat-form-field>
+                        </div>
+                        <div class="input-container">
+                            <mat-form-field class="text-input">
+                                <mat-select placeholder="{{'Course path' | translate}}" formControlName="coursePathId">
+                                    <mat-option *ngFor="let path of coursePaths$ | async" [value]="path.id">
+                                        {{path.name}}
+                                    </mat-option>
+                                </mat-select>
+                            </mat-form-field>
+                        </div>
+                        <div class="input-container">
+                            <mat-checkbox formControlName="isActive">{{'Is active' |
+                                translate}}</mat-checkbox>
+                        </div>
+                        <div class="input-container">
+                            <mat-checkbox formControlName="requireLessonOrder">{{'Require lesson order' | translate}}</mat-checkbox>
+                        </div>
+                        <div class="input-container">
+                            <mat-form-field class="text-input">
+                                <input type="number" matInput formControlName="passThreshold" placeholder="{{'Pass threshold' | translate}}" />
+                                <span matSuffix>%</span>
+                            </mat-form-field>
+                        </div>
+                        <div class="input-container">
+                            <file-picker [control]="dataForm.controls['pictureUrl']" [name]="'pictureUrl'" placeholder="Choose photo"></file-picker>
+                        </div>
+                        <div>
+                            <p>{{'Description' | translate}}</p>
+                            <editor formControlName="description" [init]="settings"></editor>
+                        </div>
+                    </div>
+                </mat-tab>
+                <mat-tab label="{{'Groups' | translate}}">
+                    <div class="form-container">
+                        <div>
+                            <mat-form-field class="input-container">
+                                <input type="text" placeholder="{{'Select group' | translate}}" matInput
+                                    formControlName="group" [matAutocomplete]="auto">
+                                <mat-autocomplete #auto="matAutocomplete" [displayWith]="displayGroupFn">
+                                    <mat-option *ngFor="let option of filteredGroups" [value]="option">
+                                        {{option.name}}
+                                    </mat-option>
+                                </mat-autocomplete>
+                            </mat-form-field>
+                        </div>
+                        <div class="offest-top offset-bottom">
+                            <button mat-raised-button color="primary" type="button" (click)="addGroup()">{{'Add group' | translate}}</button>
+                        </div>
+                        <ag-grid-angular #groupsGrid style="width: 100%; height: 300px;" id="myGrid" class="ag-theme-balham"
+                            [columnDefs]="groupColumns" [animateRows]="true" [rowSelection]="true" (gridReady)="onGroupsGridReady($event)"
+                            [components]="components" [frameworkComponents]="frameworkComponents" [getRowNodeId]="getRowNodeId"></ag-grid-angular>
+                    </div>
+                </mat-tab>
+                <mat-tab label="{{'Lessons' | translate}}">
+                    <div class="form-container">
+                        <div style="padding-bottom:30px;">
+                            <button mat-raised-button color="primary" type="button" (click)="addLesson()">
+                                {{'Add lesson' | translate}}
+                            </button>
+                        </div>
+                        <ag-grid-angular #groupsGrid style="height: 300px;" id="lessonGrid" class="ag-theme-balham"
+                            [columnDefs]="lessonColumns" [animateRows]="true" [rowSelection]="true" (gridReady)="onLessonsGridReady($event)"
+                            [frameworkComponents]="frameworkComponents" [getRowNodeId]="getRowNodeId"></ag-grid-angular>
+                    </div>
+                </mat-tab>
+            </mat-tab-group>
+        </div>
+    </form>
+</div>

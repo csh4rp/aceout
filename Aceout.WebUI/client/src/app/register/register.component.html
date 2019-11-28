@@ -1,0 +1,46 @@
+<div class="login-component">
+  <div class="form-container">
+
+    <div class="form-image">
+      <div class="heading">
+        <h1>Aceout LMS</h1>
+      </div>
+    </div>
+
+    <div class="form">
+      <div class="centered-container">
+        <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+          <div class="input-group">
+            <label for="username">{{'userName' | translate}}</label>
+            <input type="text" class="form-element" id="username" formControlName="username" />
+            <span *ngIf="form.username.errors?.required && form.username.touched" class="validation-message">{{'field is required' | translate}}</span>
+          </div>
+          <div class="input-group">
+            <label for="email">{{'email' | translate}}</label>
+            <input type="text" class="form-element" id="email" formControlName="email" />
+            <span *ngIf="form.email.errors?.email && form.email.touched" class="validation-message">{{'invalid email' | translate}}</span>
+            <span *ngIf="form.email.errors?.required && form.email.touched" class="validation-message">{{'field is required' | translate}}</span>
+          </div>
+          <div class="input-group">
+            <label for="password">{{'password' | translate}}</label>
+            <input type="password" class="form-element" id="password" formControlName="password" />
+            <span *ngIf="form.password.errors?.required && form.password.touched" class="validation-message">{{'field is required' | translate}}</span>
+          </div>
+          <div class="input-group">
+            <label for="passwordrepeat">{{'password repeat' | translate}}</label>
+            <input type="password" class="form-element" id="passwordrepeat" formControlName="passwordrepeat" />
+            <span *ngIf="form.passwordrepeat.errors?.required && form.passwordrepeat.touched" class="validation-message">{{'field is required' | translate}}</span>
+            <span *ngIf="form.password != form.passwordrepeat && form.password.touched" class="validation-message">{{'passwords differ' | translate}}</span>
+          </div>
+
+          <div class="button-container">
+            <button type="submit" class="button-wide button-black">{{'signup' | translate}}</button>
+          </div>
+          <div>
+
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

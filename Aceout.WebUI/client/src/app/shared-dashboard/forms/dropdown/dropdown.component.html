@@ -1,0 +1,10 @@
+<mat-form-field>
+    <mat-select placeholder="{{label | translate}}" [formControl]="control">
+      <mat-option *ngFor="let option of options" [value]="value.value">
+        {{option.text | translate}}
+      </mat-option>
+    </mat-select>
+    <mat-error *ngFor="let error of errors">
+        {{error | translate}}
+    </mat-error>
+  </mat-form-field>

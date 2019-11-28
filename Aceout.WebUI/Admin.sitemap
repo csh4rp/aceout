@@ -1,0 +1,3 @@
+﻿<siteMap>
+	<siteMapNode name="Users" area="Admin" controller="Users" action="Index"></siteMapNode>
+</siteMap>

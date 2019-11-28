@@ -1,0 +1,49 @@
+<div class="component-panel">
+        <form [formGroup]="dataForm" (ngSubmit)="onSubmit()">
+                <div class="header">
+                        <h5>{{titleText | translate}}</h5>
+                </div>
+                <div class="toolbar">
+                        <toolbar-item [text]="'Back'" [type]="'button'" [icon]="'arrow-left'" [color]="'white'" (click)="back()"></toolbar-item>
+                        <toolbar-item [text]="submitText" [type]="'submit'" [icon]="'plus'" [color]="'white'"></toolbar-item>
+                </div>
+                <div class="form-container">
+                        <div class="input-container">
+                                <mat-form-field class="text-input">
+                                        <input matInput formControlName="name" placeholder="{{'Name' | translate}}" />
+                                </mat-form-field>
+                        </div>
+                        <div class="input-container">
+                                <mat-form-field class="text-input">
+                                        <input type="text" placeholder="{{'Select user'| translate}}" matInput formControlName="userName"
+                                                [matAutocomplete]="auto">
+                                        <mat-autocomplete #auto="matAutocomplete" [displayWith]="displayFn">
+                                                <mat-option *ngFor="let option of filteredOptions" [value]="option">
+                                                        {{option.firstName + ' ' + option.lastName + ' [' + option.userName + ']'}}
+                                                </mat-option>
+                                        </mat-autocomplete>
+                                </mat-form-field>
+                                <span *ngIf="dataForm.controls['userName'].errors?.nonUnique">Non Unique</span>
+                                <span *ngIf="dataForm.controls['userName'].errors?.empty">Non Unique</span>
+                                <div style="padding-bottom: 30px">
+                                        <button type="button" mat-raised-button color="primary" (click)="addUser()">{{'Add user'}}</button>
+                                </div>
+                        </div>
+
+                <ag-grid-angular
+                #agGrid
+                style="width: 100%; height: 300px"
+                id="myGrid"
+                class="ag-theme-balham"
+                [rowData]="rowData"
+                [columnDefs]="columns"
+                [animateRows]="true"
+                [rowSelection]="true"
+                (gridReady)="gridReady($event)"
+                [frameworkComponents]="frameworkComponents"
+                [getRowNodeId]="getRowNodeId"
+                ></ag-grid-angular>
+
+                </div>
+        </form>
+</div>

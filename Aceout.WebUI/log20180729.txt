@@ -1,0 +1,1180 @@
+2018-07-29 11:13:19.604 +02:00 [Information] User profile is available. Using '"C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-07-29 11:13:23.079 +02:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:26106/  0
+2018-07-29 11:13:23.079 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/  
+2018-07-29 11:13:23.173 +02:00 [Information] Request finished in 97.6679ms 200 
+2018-07-29 11:13:23.389 +02:00 [Information] Executing action method "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" with arguments (null) - ModelState is Valid
+2018-07-29 11:13:25.940 +02:00 [Information] webpack built b6e2f45f8f456b2dcf72 in 3418ms
+2018-07-29 11:13:27.056 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-07-29 11:13:27.617 +02:00 [Information] Executed action "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" in 4289.3713ms
+2018-07-29 11:13:27.623 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/dist/vendor.js?v=RCvRrqPvM2Kc5BlkEQ045FeXR6gPMRIwfn51ludN14I  
+2018-07-29 11:13:27.624 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/dist/vendor.css?v=b_M7vdGvPSJOo55_XCEeI_fYCVztjxk08tEeZj5UyoU  
+2018-07-29 11:13:27.631 +02:00 [Information] Request finished in 4560.5028ms 200 text/html; charset=utf-8
+2018-07-29 11:13:27.631 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/dist/main-client.js?v=GbXIzunGvjtrwqAD5sIOxiBJ-iff9Y9cHS1ULfkEeYA  
+2018-07-29 11:13:27.722 +02:00 [Information] Sending file. Request path: '"/dist/vendor.js"'. Physical path: '"C:\Programowanie\Aceout\Aceout.WebUI\wwwroot\dist\vendor.js"'
+2018-07-29 11:13:27.722 +02:00 [Information] Sending file. Request path: '"/dist/vendor.css"'. Physical path: '"C:\Programowanie\Aceout\Aceout.WebUI\wwwroot\dist\vendor.css"'
+2018-07-29 11:13:27.728 +02:00 [Information] Request finished in 97.2185ms 200 application/javascript; charset=UTF-8
+2018-07-29 11:13:27.742 +02:00 [Information] Request finished in 117.8678ms 200 text/css
+2018-07-29 11:13:27.758 +02:00 [Information] Request finished in 135.2046ms 200 application/javascript
+2018-07-29 11:13:28.006 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/dist/0.js  
+2018-07-29 11:13:28.029 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/dist/__webpack_hmr  
+2018-07-29 11:13:28.029 +02:00 [Information] Request finished in 23.4009ms 200 application/javascript; charset=UTF-8
+2018-07-29 17:51:22.001 +02:00 [Information] User profile is available. Using '"C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-07-29 17:51:25.865 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/  
+2018-07-29 17:51:25.865 +02:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:26106/  0
+2018-07-29 17:51:25.961 +02:00 [Information] Request finished in 94.7453ms 200 
+2018-07-29 17:51:26.172 +02:00 [Information] Executing action method "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" with arguments (null) - ModelState is Valid
+2018-07-29 17:51:29.066 +02:00 [Information] webpack built b6e2f45f8f456b2dcf72 in 3871ms
+2018-07-29 17:51:30.277 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-07-29 17:51:30.871 +02:00 [Information] Executed action "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" in 4758.5345ms
+2018-07-29 17:51:30.876 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/dist/vendor.css?v=b_M7vdGvPSJOo55_XCEeI_fYCVztjxk08tEeZj5UyoU  
+2018-07-29 17:51:30.884 +02:00 [Information] Request finished in 5027.731ms 200 text/html; charset=utf-8
+2018-07-29 17:51:30.884 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/dist/main-client.js?v=GbXIzunGvjtrwqAD5sIOxiBJ-iff9Y9cHS1ULfkEeYA  
+2018-07-29 17:51:30.960 +02:00 [Information] Sending file. Request path: '"/dist/vendor.css"'. Physical path: '"C:\Programowanie\Aceout\Aceout.WebUI\wwwroot\dist\vendor.css"'
+2018-07-29 17:51:30.967 +02:00 [Information] Request finished in 83.32ms 200 application/javascript; charset=UTF-8
+2018-07-29 17:51:30.976 +02:00 [Information] Request finished in 100.0593ms 200 text/css
+2018-07-29 17:51:31.201 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/dist/0.js  
+2018-07-29 17:51:31.220 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/dist/__webpack_hmr  
+2018-07-29 17:51:31.220 +02:00 [Information] Request finished in 18.6473ms 200 application/javascript; charset=UTF-8
+2018-07-29 17:51:52.054 +02:00 [Information] Request starting HTTP/1.1 POST http://localhost:26106/login application/json 12
+2018-07-29 17:51:52.137 +02:00 [Information] Executed action "Aceout.WebUI.Controllers.AccountController.Login (Aceout.WebUI)" in 1.7851ms
+2018-07-29 17:51:52.139 +02:00 [Error] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Microsoft.AspNetCore.Identity.UserManager`1[Aceout.Infrastructure.Identity.AppUser]' while attempting to activate 'Aceout.WebUI.Controllers.AccountController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.SpaServices.Webpack.ConditionalProxyMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.SpaServices.Webpack.ConditionalProxyMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2018-07-29 17:51:52.225 +02:00 [Information] Request finished in 171.1738ms 500 text/html; charset=utf-8
+2018-07-29 17:51:52.245 +02:00 [Information] Connection id ""0HLFLDCI04GLG"", Request id ""0HLFLDCI04GLG:00000004"": the application completed without reading the entire request body.
+2018-07-29 17:52:24.794 +02:00 [Information] Request starting HTTP/1.1 POST http://localhost:26106/account/login application/json 12
+2018-07-29 17:52:24.809 +02:00 [Information] Executing action method "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" with arguments (null) - ModelState is Valid
+2018-07-29 17:52:24.810 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-07-29 17:52:24.810 +02:00 [Information] Executed action "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" in 12.1753ms
+2018-07-29 17:52:24.810 +02:00 [Information] Request finished in 16.318ms 200 text/html; charset=utf-8
+2018-07-29 17:52:24.816 +02:00 [Information] Connection id ""0HLFLDCI04GLG"", Request id ""0HLFLDCI04GLG:00000005"": the application completed without reading the entire request body.
+2018-07-29 17:52:30.512 +02:00 [Information] Request starting HTTP/1.1 POST http://localhost:26106/account/login application/json 12
+2018-07-29 17:52:30.523 +02:00 [Information] Executing action method "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" with arguments (null) - ModelState is Valid
+2018-07-29 17:52:30.524 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-07-29 17:52:30.524 +02:00 [Information] Executed action "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" in 11.8158ms
+2018-07-29 17:52:30.529 +02:00 [Information] Request finished in 16.8103ms 200 text/html; charset=utf-8
+2018-07-29 17:52:30.530 +02:00 [Information] Connection id ""0HLFLDCI04GLG"", Request id ""0HLFLDCI04GLG:00000006"": the application completed without reading the entire request body.
+2018-07-29 17:52:37.300 +02:00 [Information] Request starting HTTP/1.1 POST http://localhost:26106/account/login application/json 12
+2018-07-29 17:52:37.310 +02:00 [Information] Executing action method "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" with arguments (null) - ModelState is Valid
+2018-07-29 17:52:37.310 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-07-29 17:52:37.311 +02:00 [Information] Executed action "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" in 10.6009ms
+2018-07-29 17:52:37.311 +02:00 [Information] Request finished in 10.7767ms 200 text/html; charset=utf-8
+2018-07-29 17:52:37.311 +02:00 [Information] Connection id ""0HLFLDCI04GLG"", Request id ""0HLFLDCI04GLG:00000007"": the application completed without reading the entire request body.
+2018-07-29 17:52:42.490 +02:00 [Information] Request starting HTTP/1.1 POST http://localhost:26106/login application/json 12
+2018-07-29 17:52:42.492 +02:00 [Information] Executed action "Aceout.WebUI.Controllers.AccountController.Login (Aceout.WebUI)" in 0.574ms
+2018-07-29 17:52:42.492 +02:00 [Error] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Microsoft.AspNetCore.Identity.UserManager`1[Aceout.Infrastructure.Identity.AppUser]' while attempting to activate 'Aceout.WebUI.Controllers.AccountController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.SpaServices.Webpack.ConditionalProxyMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.SpaServices.Webpack.ConditionalProxyMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2018-07-29 17:52:42.496 +02:00 [Information] Request finished in 5.6672ms 500 text/html; charset=utf-8
+2018-07-29 17:52:42.496 +02:00 [Information] Connection id ""0HLFLDCI04GLG"", Request id ""0HLFLDCI04GLG:00000008"": the application completed without reading the entire request body.
+2018-07-29 17:52:46.358 +02:00 [Information] Request starting HTTP/1.1 POST http://localhost:26106/login application/json 12
+2018-07-29 17:52:46.364 +02:00 [Information] Executed action "Aceout.WebUI.Controllers.AccountController.Login (Aceout.WebUI)" in 0.659ms
+2018-07-29 17:52:46.364 +02:00 [Error] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Microsoft.AspNetCore.Identity.UserManager`1[Aceout.Infrastructure.Identity.AppUser]' while attempting to activate 'Aceout.WebUI.Controllers.AccountController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.SpaServices.Webpack.ConditionalProxyMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.SpaServices.Webpack.ConditionalProxyMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2018-07-29 17:52:46.367 +02:00 [Information] Request finished in 9.5911ms 500 text/html; charset=utf-8
+2018-07-29 17:52:46.368 +02:00 [Information] Connection id ""0HLFLDCI04GLG"", Request id ""0HLFLDCI04GLG:00000009"": the application completed without reading the entire request body.
+2018-07-29 17:53:32.206 +02:00 [Information] Request starting HTTP/1.1 POST http://localhost:26106/login application/json 12
+2018-07-29 17:53:32.207 +02:00 [Information] Executed action "Aceout.WebUI.Controllers.AccountController.Login (Aceout.WebUI)" in 0.603ms
+2018-07-29 17:53:32.207 +02:00 [Error] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Microsoft.AspNetCore.Identity.UserManager`1[Aceout.Infrastructure.Identity.AppUser]' while attempting to activate 'Aceout.WebUI.Controllers.AccountController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.SpaServices.Webpack.ConditionalProxyMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.SpaServices.Webpack.ConditionalProxyMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2018-07-29 17:53:32.216 +02:00 [Information] Request finished in 9.6938ms 500 text/html; charset=utf-8
+2018-07-29 17:53:32.216 +02:00 [Information] Connection id ""0HLFLDCI04GLG"", Request id ""0HLFLDCI04GLG:0000000A"": the application completed without reading the entire request body.
+2018-07-29 17:53:46.869 +02:00 [Information] Request starting HTTP/1.1 POST http://localhost:26106/login?returnUrl=w application/json 12
+2018-07-29 17:53:46.870 +02:00 [Information] Executed action "Aceout.WebUI.Controllers.AccountController.Login (Aceout.WebUI)" in 0.6135ms
+2018-07-29 17:53:46.871 +02:00 [Error] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Microsoft.AspNetCore.Identity.UserManager`1[Aceout.Infrastructure.Identity.AppUser]' while attempting to activate 'Aceout.WebUI.Controllers.AccountController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.SpaServices.Webpack.ConditionalProxyMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.SpaServices.Webpack.ConditionalProxyMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2018-07-29 17:53:46.876 +02:00 [Information] Request finished in 6.9828ms 500 text/html; charset=utf-8
+2018-07-29 17:53:46.876 +02:00 [Information] Connection id ""0HLFLDCI04GLG"", Request id ""0HLFLDCI04GLG:0000000B"": the application completed without reading the entire request body.
+2018-07-29 17:54:17.756 +02:00 [Information] User profile is available. Using '"C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-07-29 17:54:20.701 +02:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:26106/  0
+2018-07-29 17:54:20.701 +02:00 [Information] Request starting HTTP/1.1 POST http://localhost:26106/login?returnUrl=w application/json 12
+2018-07-29 17:54:20.701 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/  
+2018-07-29 17:54:20.801 +02:00 [Information] Request finished in 103.3113ms 200 
+2018-07-29 17:54:20.974 +02:00 [Information] Executed action "Aceout.WebUI.Controllers.AccountController.Login (Aceout.WebUI)" in 2.622ms
+2018-07-29 17:54:20.977 +02:00 [Error] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Microsoft.AspNetCore.Identity.UserManager`1[Aceout.Infrastructure.Identity.AppUser]' while attempting to activate 'Aceout.WebUI.Controllers.AccountController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.SpaServices.Webpack.ConditionalProxyMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.SpaServices.Webpack.ConditionalProxyMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2018-07-29 17:54:21.022 +02:00 [Information] Executing action method "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" with arguments (null) - ModelState is Valid
+2018-07-29 17:54:21.122 +02:00 [Information] Request finished in 430.4139ms 500 text/html; charset=utf-8
+2018-07-29 17:54:21.145 +02:00 [Information] Connection id ""0HLFLDE63KFJC"", Request id ""0HLFLDE63KFJC:00000001"": the application completed without reading the entire request body.
+2018-07-29 17:54:22.700 +02:00 [Information] Request starting HTTP/1.1 POST http://localhost:26106/login?returnUrl=w application/json 12
+2018-07-29 17:54:22.705 +02:00 [Information] Executed action "Aceout.WebUI.Controllers.AccountController.Login (Aceout.WebUI)" in 0.6732ms
+2018-07-29 17:54:22.705 +02:00 [Error] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Microsoft.AspNetCore.Identity.UserManager`1[Aceout.Infrastructure.Identity.AppUser]' while attempting to activate 'Aceout.WebUI.Controllers.AccountController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.SpaServices.Webpack.ConditionalProxyMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.SpaServices.Webpack.ConditionalProxyMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2018-07-29 17:54:22.710 +02:00 [Information] Request finished in 9.6207ms 500 text/html; charset=utf-8
+2018-07-29 17:54:22.710 +02:00 [Information] Connection id ""0HLFLDE63KFJD"", Request id ""0HLFLDE63KFJD:00000002"": the application completed without reading the entire request body.
+2018-07-29 17:54:23.236 +02:00 [Information] webpack built b6e2f45f8f456b2dcf72 in 3214ms
+2018-07-29 17:54:24.701 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-07-29 17:54:25.213 +02:00 [Information] Executed action "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" in 4264.3234ms
+2018-07-29 17:54:25.215 +02:00 [Information] Request finished in 4523.7304ms 200 text/html; charset=utf-8
+2018-07-29 17:54:25.223 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/dist/main-client.js?v=GbXIzunGvjtrwqAD5sIOxiBJ-iff9Y9cHS1ULfkEeYA  
+2018-07-29 17:54:25.280 +02:00 [Information] Request finished in 57.4984ms 200 application/javascript; charset=UTF-8
+2018-07-29 17:54:25.444 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/dist/0.js  
+2018-07-29 17:54:25.467 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/dist/__webpack_hmr  
+2018-07-29 17:54:25.467 +02:00 [Information] Request finished in 22.6801ms 200 application/javascript; charset=UTF-8
+2018-07-29 17:56:02.967 +02:00 [Information] User profile is available. Using '"C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-07-29 17:56:05.668 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/  
+2018-07-29 17:56:05.668 +02:00 [Information] Request starting HTTP/1.1 POST http://localhost:26106/login?returnUrl=w application/json 12
+2018-07-29 17:56:05.668 +02:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:26106/  0
+2018-07-29 17:56:05.758 +02:00 [Information] Request finished in 94.547ms 200 
+2018-07-29 17:56:05.927 +02:00 [Information] Executed action "Aceout.WebUI.Controllers.AccountController.Login (Aceout.WebUI)" in 2.3199ms
+2018-07-29 17:56:05.930 +02:00 [Error] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Microsoft.AspNetCore.Identity.UserManager`1[Aceout.Infrastructure.Identity.AppUser]' while attempting to activate 'Aceout.WebUI.Controllers.AccountController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.SpaServices.Webpack.ConditionalProxyMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.SpaServices.Webpack.ConditionalProxyMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2018-07-29 17:56:05.973 +02:00 [Information] Executing action method "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" with arguments (null) - ModelState is Valid
+2018-07-29 17:56:06.084 +02:00 [Information] Request finished in 424.9031ms 500 text/html; charset=utf-8
+2018-07-29 17:56:06.115 +02:00 [Information] Connection id ""0HLFLDF5CKAML"", Request id ""0HLFLDF5CKAML:00000001"": the application completed without reading the entire request body.
+2018-07-29 17:56:07.755 +02:00 [Information] Request starting HTTP/1.1 POST http://localhost:26106/login?returnUrl=w application/json 12
+2018-07-29 17:56:07.759 +02:00 [Information] Executed action "Aceout.WebUI.Controllers.AccountController.Login (Aceout.WebUI)" in 0.7076ms
+2018-07-29 17:56:07.760 +02:00 [Error] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Microsoft.AspNetCore.Identity.UserManager`1[Aceout.Infrastructure.Identity.AppUser]' while attempting to activate 'Aceout.WebUI.Controllers.AccountController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.SpaServices.Webpack.ConditionalProxyMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.SpaServices.Webpack.ConditionalProxyMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2018-07-29 17:56:07.764 +02:00 [Information] Request finished in 8.9873ms 500 text/html; charset=utf-8
+2018-07-29 17:56:07.764 +02:00 [Information] Connection id ""0HLFLDF5CKAMM"", Request id ""0HLFLDF5CKAMM:00000002"": the application completed without reading the entire request body.
+2018-07-29 17:56:08.490 +02:00 [Information] webpack built b6e2f45f8f456b2dcf72 in 3267ms
+2018-07-29 17:56:09.790 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-07-29 17:56:10.158 +02:00 [Information] Executed action "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" in 4252.8932ms
+2018-07-29 17:56:10.161 +02:00 [Information] Request finished in 4501.649ms 200 text/html; charset=utf-8
+2018-07-29 17:56:10.169 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/dist/main-client.js?v=GbXIzunGvjtrwqAD5sIOxiBJ-iff9Y9cHS1ULfkEeYA  
+2018-07-29 17:56:10.227 +02:00 [Information] Request finished in 58.5466ms 200 application/javascript; charset=UTF-8
+2018-07-29 17:56:10.382 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/dist/0.js  
+2018-07-29 17:56:10.404 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/dist/__webpack_hmr  
+2018-07-29 17:56:10.405 +02:00 [Information] Request finished in 23.0852ms 200 application/javascript; charset=UTF-8
+2018-07-29 17:56:11.755 +02:00 [Information] Request starting HTTP/1.1 POST http://localhost:26106/login?returnUrl=w application/json 12
+2018-07-29 17:56:11.757 +02:00 [Information] Executed action "Aceout.WebUI.Controllers.AccountController.Login (Aceout.WebUI)" in 0.5953ms
+2018-07-29 17:56:11.758 +02:00 [Error] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Microsoft.AspNetCore.Identity.UserManager`1[Aceout.Infrastructure.Identity.AppUser]' while attempting to activate 'Aceout.WebUI.Controllers.AccountController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.SpaServices.Webpack.ConditionalProxyMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.SpaServices.Webpack.ConditionalProxyMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2018-07-29 17:56:11.762 +02:00 [Information] Request finished in 6.7589ms 500 text/html; charset=utf-8
+2018-07-29 17:56:11.762 +02:00 [Information] Connection id ""0HLFLDF5CKAML"", Request id ""0HLFLDF5CKAML:00000003"": the application completed without reading the entire request body.
+2018-07-29 17:56:19.370 +02:00 [Information] Request starting HTTP/1.1 POST http://localhost:26106/account/login?returnUrl=w application/json 12
+2018-07-29 17:56:19.383 +02:00 [Information] Executing action method "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" with arguments (null) - ModelState is Valid
+2018-07-29 17:56:19.384 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-07-29 17:56:19.385 +02:00 [Information] Executed action "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" in 12.1176ms
+2018-07-29 17:56:19.385 +02:00 [Information] Request finished in 15.6993ms 200 text/html; charset=utf-8
+2018-07-29 17:56:19.385 +02:00 [Information] Connection id ""0HLFLDF5CKAMM"", Request id ""0HLFLDF5CKAMM:00000004"": the application completed without reading the entire request body.
+2018-07-29 17:56:20.506 +02:00 [Information] Request starting HTTP/1.1 POST http://localhost:26106/account/login?returnUrl=w application/json 12
+2018-07-29 17:56:20.516 +02:00 [Information] Executing action method "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" with arguments (null) - ModelState is Valid
+2018-07-29 17:56:20.516 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-07-29 17:56:20.517 +02:00 [Information] Executed action "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" in 11.0731ms
+2018-07-29 17:56:20.517 +02:00 [Information] Request finished in 11.3533ms 200 text/html; charset=utf-8
+2018-07-29 17:56:20.517 +02:00 [Information] Connection id ""0HLFLDF5CKAML"", Request id ""0HLFLDF5CKAML:00000004"": the application completed without reading the entire request body.
+2018-07-29 17:59:28.750 +02:00 [Information] User profile is available. Using '"C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-07-29 17:59:45.309 +02:00 [Information] User profile is available. Using '"C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-07-29 17:59:47.987 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/  
+2018-07-29 17:59:47.987 +02:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:26106/  0
+2018-07-29 17:59:48.081 +02:00 [Information] Request finished in 94.1843ms 200 
+2018-07-29 17:59:48.302 +02:00 [Information] Executing action method "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" with arguments (null) - ModelState is Valid
+2018-07-29 17:59:48.647 +02:00 [Information] Request starting HTTP/1.1 POST http://localhost:26106/account/index application/json 12
+2018-07-29 17:59:48.675 +02:00 [Information] Executing action method "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" with arguments (null) - ModelState is Valid
+2018-07-29 17:59:50.816 +02:00 [Information] webpack built b6e2f45f8f456b2dcf72 in 3286ms
+2018-07-29 17:59:51.927 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-07-29 17:59:51.927 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-07-29 17:59:52.369 +02:00 [Information] Executed action "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" in 3704.1922ms
+2018-07-29 17:59:52.369 +02:00 [Information] Executed action "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" in 4126.6608ms
+2018-07-29 17:59:52.384 +02:00 [Information] Request finished in 4406.586ms 200 text/html; charset=utf-8
+2018-07-29 17:59:52.384 +02:00 [Information] Request finished in 3736.6144ms 200 text/html; charset=utf-8
+2018-07-29 17:59:52.413 +02:00 [Information] Connection id ""0HLFLDH7KO9VN"", Request id ""0HLFLDH7KO9VN:00000002"": the application completed without reading the entire request body.
+2018-07-29 17:59:52.415 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/dist/main-client.js?v=GbXIzunGvjtrwqAD5sIOxiBJ-iff9Y9cHS1ULfkEeYA  
+2018-07-29 17:59:52.483 +02:00 [Information] Request finished in 67.6812ms 200 application/javascript; charset=UTF-8
+2018-07-29 17:59:52.612 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/dist/0.js  
+2018-07-29 17:59:52.620 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/dist/__webpack_hmr  
+2018-07-29 17:59:52.639 +02:00 [Information] Request finished in 26.8123ms 200 application/javascript; charset=UTF-8
+2018-07-29 17:59:59.475 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/account/index application/json 
+2018-07-29 17:59:59.484 +02:00 [Information] Executed action "Aceout.WebUI.Controllers.AccountController.Index (Aceout.WebUI)" in 1.0316ms
+2018-07-29 17:59:59.486 +02:00 [Error] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Microsoft.AspNetCore.Identity.UserManager`1[Aceout.Infrastructure.Identity.AppUser]' while attempting to activate 'Aceout.WebUI.Controllers.AccountController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.SpaServices.Webpack.ConditionalProxyMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.SpaServices.Webpack.ConditionalProxyMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2018-07-29 17:59:59.555 +02:00 [Information] Request finished in 80.2844ms 500 text/html; charset=utf-8
+2018-07-29 18:00:40.100 +02:00 [Information] User profile is available. Using '"C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-07-29 18:00:42.990 +02:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:26106/  0
+2018-07-29 18:00:42.990 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/  
+2018-07-29 18:00:43.094 +02:00 [Information] Request finished in 110.8403ms 200 
+2018-07-29 18:00:43.309 +02:00 [Information] Executing action method "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" with arguments (null) - ModelState is Valid
+2018-07-29 18:00:43.662 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/index application/json 
+2018-07-29 18:00:43.688 +02:00 [Information] Executed action "Aceout.WebUI.Controllers.AccountController.Index (Aceout.WebUI)" in 2.9681ms
+2018-07-29 18:00:43.691 +02:00 [Error] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Microsoft.AspNetCore.Identity.UserManager`1[Aceout.Infrastructure.Identity.AppUser]' while attempting to activate 'Aceout.WebUI.Controllers.AccountController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.SpaServices.Webpack.ConditionalProxyMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.SpaServices.Webpack.ConditionalProxyMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2018-07-29 18:00:43.809 +02:00 [Information] Request finished in 147.4232ms 500 text/html; charset=utf-8
+2018-07-29 18:00:45.640 +02:00 [Information] webpack built b6e2f45f8f456b2dcf72 in 3316ms
+2018-07-29 18:00:46.655 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/index application/json 
+2018-07-29 18:00:46.657 +02:00 [Information] Executed action "Aceout.WebUI.Controllers.AccountController.Index (Aceout.WebUI)" in 0.6997ms
+2018-07-29 18:00:46.658 +02:00 [Error] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Microsoft.AspNetCore.Identity.UserManager`1[Aceout.Infrastructure.Identity.AppUser]' while attempting to activate 'Aceout.WebUI.Controllers.AccountController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.SpaServices.Webpack.ConditionalProxyMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.SpaServices.Webpack.ConditionalProxyMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2018-07-29 18:00:46.662 +02:00 [Information] Request finished in 6.6451ms 500 text/html; charset=utf-8
+2018-07-29 18:00:47.065 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-07-29 18:00:47.428 +02:00 [Information] Executed action "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" in 4181.7827ms
+2018-07-29 18:00:47.430 +02:00 [Information] Request finished in 4452.1392ms 200 text/html; charset=utf-8
+2018-07-29 18:00:47.438 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/dist/main-client.js?v=GbXIzunGvjtrwqAD5sIOxiBJ-iff9Y9cHS1ULfkEeYA  
+2018-07-29 18:00:47.509 +02:00 [Information] Request finished in 70.301ms 200 application/javascript; charset=UTF-8
+2018-07-29 18:00:47.614 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/index application/json 
+2018-07-29 18:00:47.615 +02:00 [Information] Executed action "Aceout.WebUI.Controllers.AccountController.Index (Aceout.WebUI)" in 0.632ms
+2018-07-29 18:00:47.615 +02:00 [Error] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Microsoft.AspNetCore.Identity.UserManager`1[Aceout.Infrastructure.Identity.AppUser]' while attempting to activate 'Aceout.WebUI.Controllers.AccountController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.SpaServices.Webpack.ConditionalProxyMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.SpaServices.Webpack.ConditionalProxyMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2018-07-29 18:00:47.620 +02:00 [Information] Request finished in 5.6857ms 500 text/html; charset=utf-8
+2018-07-29 18:00:47.680 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/dist/0.js  
+2018-07-29 18:00:47.690 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/dist/__webpack_hmr  
+2018-07-29 18:00:47.713 +02:00 [Information] Request finished in 33.0953ms 200 application/javascript; charset=UTF-8
+2018-07-29 18:02:24.323 +02:00 [Information] User profile is available. Using '"C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-07-29 18:02:27.189 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/  
+2018-07-29 18:02:27.189 +02:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:26106/  0
+2018-07-29 18:02:27.280 +02:00 [Information] Request finished in 88.6707ms 200 
+2018-07-29 18:02:27.500 +02:00 [Information] Executing action method "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" with arguments (null) - ModelState is Valid
+2018-07-29 18:02:29.945 +02:00 [Information] webpack built b6e2f45f8f456b2dcf72 in 3355ms
+2018-07-29 18:02:31.246 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-07-29 18:02:31.624 +02:00 [Information] Executed action "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" in 4192.7608ms
+2018-07-29 18:02:31.637 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/dist/main-client.js?v=GbXIzunGvjtrwqAD5sIOxiBJ-iff9Y9cHS1ULfkEeYA  
+2018-07-29 18:02:31.641 +02:00 [Information] Request finished in 4460.4049ms 200 text/html; charset=utf-8
+2018-07-29 18:02:31.706 +02:00 [Information] Request finished in 69.2585ms 200 application/javascript; charset=UTF-8
+2018-07-29 18:02:31.850 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/dist/0.js  
+2018-07-29 18:02:31.860 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/dist/__webpack_hmr  
+2018-07-29 18:02:31.880 +02:00 [Information] Request finished in 29.7443ms 200 application/javascript; charset=UTF-8
+2018-07-29 18:02:33.902 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/account/index application/json 
+2018-07-29 18:02:33.918 +02:00 [Information] Executed action "Aceout.WebUI.Controllers.AccountController.Index (Aceout.WebUI)" in 1.0348ms
+2018-07-29 18:02:33.920 +02:00 [Error] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Microsoft.AspNetCore.Identity.UserManager`1[Aceout.Infrastructure.Identity.AppUser]' while attempting to activate 'Aceout.WebUI.Controllers.AccountController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.SpaServices.Webpack.ConditionalProxyMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.SpaServices.Webpack.ConditionalProxyMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2018-07-29 18:02:34.002 +02:00 [Information] Request finished in 99.836ms 500 text/html; charset=utf-8
+2018-07-29 18:02:34.808 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/account/index application/json 
+2018-07-29 18:02:34.810 +02:00 [Information] Executed action "Aceout.WebUI.Controllers.AccountController.Index (Aceout.WebUI)" in 0.5711ms
+2018-07-29 18:02:34.810 +02:00 [Error] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Microsoft.AspNetCore.Identity.UserManager`1[Aceout.Infrastructure.Identity.AppUser]' while attempting to activate 'Aceout.WebUI.Controllers.AccountController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.SpaServices.Webpack.ConditionalProxyMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.SpaServices.Webpack.ConditionalProxyMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2018-07-29 18:02:34.813 +02:00 [Information] Request finished in 5.4812ms 500 text/html; charset=utf-8
+2018-07-29 18:02:39.726 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/account/index application/json 
+2018-07-29 18:02:39.727 +02:00 [Information] Executed action "Aceout.WebUI.Controllers.AccountController.Index (Aceout.WebUI)" in 0.659ms
+2018-07-29 18:02:39.728 +02:00 [Error] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Microsoft.AspNetCore.Identity.UserManager`1[Aceout.Infrastructure.Identity.AppUser]' while attempting to activate 'Aceout.WebUI.Controllers.AccountController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.SpaServices.Webpack.ConditionalProxyMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.SpaServices.Webpack.ConditionalProxyMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2018-07-29 18:02:39.731 +02:00 [Information] Request finished in 4.637ms 500 text/html; charset=utf-8
+2018-07-29 18:02:40.447 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/account/index application/json 
+2018-07-29 18:02:40.448 +02:00 [Information] Executed action "Aceout.WebUI.Controllers.AccountController.Index (Aceout.WebUI)" in 0.6795ms
+2018-07-29 18:02:40.449 +02:00 [Error] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Microsoft.AspNetCore.Identity.UserManager`1[Aceout.Infrastructure.Identity.AppUser]' while attempting to activate 'Aceout.WebUI.Controllers.AccountController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.SpaServices.Webpack.ConditionalProxyMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.SpaServices.Webpack.ConditionalProxyMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2018-07-29 18:02:40.452 +02:00 [Information] Request finished in 4.6503ms 500 text/html; charset=utf-8
+2018-07-29 18:02:48.917 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/account/index  
+2018-07-29 18:02:48.918 +02:00 [Information] Executed action "Aceout.WebUI.Controllers.AccountController.Index (Aceout.WebUI)" in 0.7361ms
+2018-07-29 18:02:48.919 +02:00 [Error] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Microsoft.AspNetCore.Identity.UserManager`1[Aceout.Infrastructure.Identity.AppUser]' while attempting to activate 'Aceout.WebUI.Controllers.AccountController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.SpaServices.Webpack.ConditionalProxyMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.SpaServices.Webpack.ConditionalProxyMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2018-07-29 18:02:48.922 +02:00 [Information] Request finished in 5.0048ms 500 text/html; charset=utf-8
+2018-07-29 18:02:56.630 +02:00 [Information] Request finished in 24770.0798ms 200 text/event-stream; charset=utf-8
+2018-07-29 18:03:41.669 +02:00 [Information] User profile is available. Using '"C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-07-29 18:03:44.375 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/account/index application/json 
+2018-07-29 18:03:44.375 +02:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:26106/  0
+2018-07-29 18:03:44.375 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/  
+2018-07-29 18:03:44.475 +02:00 [Information] Request finished in 102.9637ms 200 
+2018-07-29 18:03:44.639 +02:00 [Information] Executed action "Aceout.WebUI.Controllers.AccountController.Index (Aceout.WebUI)" in 14.6434ms
+2018-07-29 18:03:44.642 +02:00 [Error] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Microsoft.AspNetCore.Identity.UserManager`1[Aceout.Infrastructure.Identity.AppUser]' while attempting to activate 'Aceout.WebUI.Controllers.AccountController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.SpaServices.Webpack.ConditionalProxyMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.SpaServices.Webpack.ConditionalProxyMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2018-07-29 18:03:44.692 +02:00 [Information] Executing action method "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" with arguments (null) - ModelState is Valid
+2018-07-29 18:03:44.781 +02:00 [Information] Request finished in 414.7643ms 500 text/html; charset=utf-8
+2018-07-29 18:03:47.161 +02:00 [Information] webpack built b6e2f45f8f456b2dcf72 in 3264ms
+2018-07-29 18:03:48.421 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-07-29 18:03:48.820 +02:00 [Information] Executed action "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" in 4197.583ms
+2018-07-29 18:03:48.823 +02:00 [Information] Request finished in 4456.7586ms 200 text/html; charset=utf-8
+2018-07-29 18:03:48.833 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/dist/main-client.js?v=GbXIzunGvjtrwqAD5sIOxiBJ-iff9Y9cHS1ULfkEeYA  
+2018-07-29 18:03:48.881 +02:00 [Information] Request finished in 48.533ms 200 application/javascript; charset=UTF-8
+2018-07-29 18:03:49.046 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/dist/0.js  
+2018-07-29 18:03:49.065 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/dist/__webpack_hmr  
+2018-07-29 18:03:49.065 +02:00 [Information] Request finished in 18.9104ms 200 application/javascript; charset=UTF-8
+2018-07-29 18:03:52.094 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/account/index  
+2018-07-29 18:03:52.097 +02:00 [Information] Executed action "Aceout.WebUI.Controllers.AccountController.Index (Aceout.WebUI)" in 0.6909ms
+2018-07-29 18:03:52.098 +02:00 [Error] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Microsoft.AspNetCore.Identity.UserManager`1[Aceout.Infrastructure.Identity.AppUser]' while attempting to activate 'Aceout.WebUI.Controllers.AccountController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.SpaServices.Webpack.ConditionalProxyMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.SpaServices.Webpack.ConditionalProxyMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2018-07-29 18:03:52.103 +02:00 [Information] Request finished in 9.08ms 500 text/html; charset=utf-8
+2018-07-29 18:03:53.921 +02:00 [Information] Request finished in 4855.5773ms 200 text/event-stream; charset=utf-8
+2018-07-29 18:08:29.619 +02:00 [Information] User profile is available. Using '"C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-07-29 18:08:32.388 +02:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:26106/  0
+2018-07-29 18:08:32.388 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/  
+2018-07-29 18:08:32.483 +02:00 [Information] Request finished in 92.7138ms 200 
+2018-07-29 18:08:32.700 +02:00 [Information] Executing action method "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" with arguments (null) - ModelState is Valid
+2018-07-29 18:08:35.041 +02:00 [Information] webpack built b6e2f45f8f456b2dcf72 in 3191ms
+2018-07-29 18:08:36.239 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-07-29 18:08:36.638 +02:00 [Information] Executed action "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" in 4001.3986ms
+2018-07-29 18:08:36.649 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/dist/main-client.js?v=GbXIzunGvjtrwqAD5sIOxiBJ-iff9Y9cHS1ULfkEeYA  
+2018-07-29 18:08:36.649 +02:00 [Information] Request finished in 4270.0666ms 200 text/html; charset=utf-8
+2018-07-29 18:08:36.718 +02:00 [Information] Request finished in 68.5929ms 200 application/javascript; charset=UTF-8
+2018-07-29 18:08:36.876 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/dist/0.js  
+2018-07-29 18:08:36.894 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/dist/__webpack_hmr  
+2018-07-29 18:08:36.894 +02:00 [Information] Request finished in 17.9527ms 200 application/javascript; charset=UTF-8
+2018-07-29 18:08:39.645 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/account/index  
+2018-07-29 18:08:39.866 +02:00 [Information] Executed action "Aceout.WebUI.Controllers.AccountController.Index (Aceout.WebUI)" in 213.4584ms
+2018-07-29 18:08:39.868 +02:00 [Error] An unhandled exception has occurred while executing the request.
+Autofac.Core.DependencyResolutionException: An error occurred during the activation of a particular registration. See the inner exception for details. Registration: Activator = SignInManager`1 (ReflectionActivator), Services = [Microsoft.AspNetCore.Identity.SignInManager`1[[Aceout.Infrastructure.Identity.AppUser, Aceout.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]], Lifetime = Autofac.Core.Lifetime.CurrentScopeLifetime, Sharing = Shared, Ownership = OwnedByLifetimeScope ---> An error occurred during the activation of a particular registration. See the inner exception for details. Registration: Activator = UserClaimsPrincipalFactory`2 (ReflectionActivator), Services = [Microsoft.AspNetCore.Identity.IUserClaimsPrincipalFactory`1[[Aceout.Infrastructure.Identity.AppUser, Aceout.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]], Lifetime = Autofac.Core.Lifetime.CurrentScopeLifetime, Sharing = Shared, Ownership = OwnedByLifetimeScope ---> An error occurred during the activation of a particular registration. See the inner exception for details. Registration: Activator = AspNetRoleManager`1 (ReflectionActivator), Services = [Microsoft.AspNetCore.Identity.RoleManager`1[[Aceout.Infrastructure.Identity.AppRole, Aceout.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]], Lifetime = Autofac.Core.Lifetime.CurrentScopeLifetime, Sharing = Shared, Ownership = OwnedByLifetimeScope ---> None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'Microsoft.AspNetCore.Identity.AspNetRoleManager`1[Aceout.Infrastructure.Identity.AppRole]' can be invoked with the available services and parameters:
+Cannot resolve parameter 'Microsoft.AspNetCore.Identity.IRoleStore`1[Aceout.Infrastructure.Identity.AppRole] store' of constructor 'Void .ctor(Microsoft.AspNetCore.Identity.IRoleStore`1[Aceout.Infrastructure.Identity.AppRole], System.Collections.Generic.IEnumerable`1[Microsoft.AspNetCore.Identity.IRoleValidator`1[Aceout.Infrastructure.Identity.AppRole]], Microsoft.AspNetCore.Identity.ILookupNormalizer, Microsoft.AspNetCore.Identity.IdentityErrorDescriber, Microsoft.Extensions.Logging.ILogger`1[Microsoft.AspNetCore.Identity.RoleManager`1[Aceout.Infrastructure.Identity.AppRole]], Microsoft.AspNetCore.Http.IHttpContextAccessor)'. (See inner exception for details.) (See inner exception for details.) (See inner exception for details.) ---> Autofac.Core.DependencyResolutionException: An error occurred during the activation of a particular registration. See the inner exception for details. Registration: Activator = UserClaimsPrincipalFactory`2 (ReflectionActivator), Services = [Microsoft.AspNetCore.Identity.IUserClaimsPrincipalFactory`1[[Aceout.Infrastructure.Identity.AppUser, Aceout.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]], Lifetime = Autofac.Core.Lifetime.CurrentScopeLifetime, Sharing = Shared, Ownership = OwnedByLifetimeScope ---> An error occurred during the activation of a particular registration. See the inner exception for details. Registration: Activator = AspNetRoleManager`1 (ReflectionActivator), Services = [Microsoft.AspNetCore.Identity.RoleManager`1[[Aceout.Infrastructure.Identity.AppRole, Aceout.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]], Lifetime = Autofac.Core.Lifetime.CurrentScopeLifetime, Sharing = Shared, Ownership = OwnedByLifetimeScope ---> None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'Microsoft.AspNetCore.Identity.AspNetRoleManager`1[Aceout.Infrastructure.Identity.AppRole]' can be invoked with the available services and parameters:
+Cannot resolve parameter 'Microsoft.AspNetCore.Identity.IRoleStore`1[Aceout.Infrastructure.Identity.AppRole] store' of constructor 'Void .ctor(Microsoft.AspNetCore.Identity.IRoleStore`1[Aceout.Infrastructure.Identity.AppRole], System.Collections.Generic.IEnumerable`1[Microsoft.AspNetCore.Identity.IRoleValidator`1[Aceout.Infrastructure.Identity.AppRole]], Microsoft.AspNetCore.Identity.ILookupNormalizer, Microsoft.AspNetCore.Identity.IdentityErrorDescriber, Microsoft.Extensions.Logging.ILogger`1[Microsoft.AspNetCore.Identity.RoleManager`1[Aceout.Infrastructure.Identity.AppRole]], Microsoft.AspNetCore.Http.IHttpContextAccessor)'. (See inner exception for details.) (See inner exception for details.) ---> Autofac.Core.DependencyResolutionException: An error occurred during the activation of a particular registration. See the inner exception for details. Registration: Activator = AspNetRoleManager`1 (ReflectionActivator), Services = [Microsoft.AspNetCore.Identity.RoleManager`1[[Aceout.Infrastructure.Identity.AppRole, Aceout.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]], Lifetime = Autofac.Core.Lifetime.CurrentScopeLifetime, Sharing = Shared, Ownership = OwnedByLifetimeScope ---> None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'Microsoft.AspNetCore.Identity.AspNetRoleManager`1[Aceout.Infrastructure.Identity.AppRole]' can be invoked with the available services and parameters:
+Cannot resolve parameter 'Microsoft.AspNetCore.Identity.IRoleStore`1[Aceout.Infrastructure.Identity.AppRole] store' of constructor 'Void .ctor(Microsoft.AspNetCore.Identity.IRoleStore`1[Aceout.Infrastructure.Identity.AppRole], System.Collections.Generic.IEnumerable`1[Microsoft.AspNetCore.Identity.IRoleValidator`1[Aceout.Infrastructure.Identity.AppRole]], Microsoft.AspNetCore.Identity.ILookupNormalizer, Microsoft.AspNetCore.Identity.IdentityErrorDescriber, Microsoft.Extensions.Logging.ILogger`1[Microsoft.AspNetCore.Identity.RoleManager`1[Aceout.Infrastructure.Identity.AppRole]], Microsoft.AspNetCore.Http.IHttpContextAccessor)'. (See inner exception for details.) ---> Autofac.Core.DependencyResolutionException: None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'Microsoft.AspNetCore.Identity.AspNetRoleManager`1[Aceout.Infrastructure.Identity.AppRole]' can be invoked with the available services and parameters:
+Cannot resolve parameter 'Microsoft.AspNetCore.Identity.IRoleStore`1[Aceout.Infrastructure.Identity.AppRole] store' of constructor 'Void .ctor(Microsoft.AspNetCore.Identity.IRoleStore`1[Aceout.Infrastructure.Identity.AppRole], System.Collections.Generic.IEnumerable`1[Microsoft.AspNetCore.Identity.IRoleValidator`1[Aceout.Infrastructure.Identity.AppRole]], Microsoft.AspNetCore.Identity.ILookupNormalizer, Microsoft.AspNetCore.Identity.IdentityErrorDescriber, Microsoft.Extensions.Logging.ILogger`1[Microsoft.AspNetCore.Identity.RoleManager`1[Aceout.Infrastructure.Identity.AppRole]], Microsoft.AspNetCore.Http.IHttpContextAccessor)'.
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.GetValidConstructorBindings(IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters)
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters)
+   at Autofac.Core.Lifetime.LifetimeScope.GetOrCreateAndShare(Guid id, Func`1 creator)
+   at Autofac.Core.Resolving.InstanceLookup.Execute()
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, IComponentRegistration registration, IEnumerable`1 parameters)
+   at Autofac.Core.Activators.Reflection.ConstructorParameterBinding.Instantiate()
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters)
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters)
+   at Autofac.Core.Lifetime.LifetimeScope.GetOrCreateAndShare(Guid id, Func`1 creator)
+   at Autofac.Core.Resolving.InstanceLookup.Execute()
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, IComponentRegistration registration, IEnumerable`1 parameters)
+   at Autofac.Core.Activators.Reflection.ConstructorParameterBinding.Instantiate()
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters)
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters)
+   at Autofac.Core.Lifetime.LifetimeScope.GetOrCreateAndShare(Guid id, Func`1 creator)
+   at Autofac.Core.Resolving.InstanceLookup.Execute()
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, IComponentRegistration registration, IEnumerable`1 parameters)
+   at Autofac.Core.Resolving.ResolveOperation.Execute(IComponentRegistration registration, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.SpaServices.Webpack.ConditionalProxyMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.SpaServices.Webpack.ConditionalProxyMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2018-07-29 18:08:39.962 +02:00 [Information] Request finished in 317.0742ms 500 text/html; charset=utf-8
+2018-07-29 18:08:41.874 +02:00 [Information] Request finished in 4980.047ms 200 text/event-stream; charset=utf-8
+2018-07-29 18:09:53.054 +02:00 [Information] User profile is available. Using '"C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-07-29 18:09:55.782 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/  
+2018-07-29 18:09:55.782 +02:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:26106/  0
+2018-07-29 18:09:55.877 +02:00 [Information] Request finished in 94.5555ms 200 
+2018-07-29 18:09:56.090 +02:00 [Information] Executing action method "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" with arguments (null) - ModelState is Valid
+2018-07-29 18:09:58.455 +02:00 [Information] webpack built b6e2f45f8f456b2dcf72 in 3134ms
+2018-07-29 18:09:59.645 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-07-29 18:10:00.041 +02:00 [Information] Executed action "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" in 4010.0829ms
+2018-07-29 18:10:00.052 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/dist/main-client.js?v=GbXIzunGvjtrwqAD5sIOxiBJ-iff9Y9cHS1ULfkEeYA  
+2018-07-29 18:10:00.055 +02:00 [Information] Request finished in 4281.6128ms 200 text/html; charset=utf-8
+2018-07-29 18:10:00.132 +02:00 [Information] Request finished in 79.9519ms 200 application/javascript; charset=UTF-8
+2018-07-29 18:10:00.275 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/dist/0.js  
+2018-07-29 18:10:00.283 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/dist/__webpack_hmr  
+2018-07-29 18:10:00.302 +02:00 [Information] Request finished in 27.2654ms 200 application/javascript; charset=UTF-8
+2018-07-29 18:10:09.223 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/account/index  
+2018-07-29 18:10:09.435 +02:00 [Information] Executing action method "Aceout.WebUI.Controllers.AccountController.Index (Aceout.WebUI)" with arguments (null) - ModelState is Valid
+2018-07-29 18:10:45.421 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/account/index  
+2018-07-29 18:10:45.460 +02:00 [Information] Executing action method "Aceout.WebUI.Controllers.AccountController.Index (Aceout.WebUI)" with arguments (null) - ModelState is Valid
+2018-07-29 18:10:47.309 +02:00 [Information] Request finished in 47026.4231ms 200 text/event-stream; charset=utf-8
+2018-07-29 18:10:47.313 +02:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-07-29 18:10:47.313 +02:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-07-29 18:10:47.327 +02:00 [Information] Executed action "Aceout.WebUI.Controllers.AccountController.Index (Aceout.WebUI)" in 38088.69ms
+2018-07-29 18:10:47.327 +02:00 [Information] Executed action "Aceout.WebUI.Controllers.AccountController.Index (Aceout.WebUI)" in 1883.2133ms
+2018-07-29 18:10:47.337 +02:00 [Information] Request finished in 38114.0883ms 200 text/plain; charset=utf-8
+2018-07-29 18:10:47.337 +02:00 [Information] Request finished in 1917.1979ms 200 text/plain; charset=utf-8
+2018-07-29 18:14:59.311 +02:00 [Information] User profile is available. Using '"C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-07-29 18:15:02.072 +02:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:26106/  0
+2018-07-29 18:15:02.072 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/  
+2018-07-29 18:15:02.171 +02:00 [Information] Request finished in 98.6356ms 200 
+2018-07-29 18:15:02.416 +02:00 [Information] Executing action method "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" with arguments (null) - ModelState is Valid
+2018-07-29 18:15:04.874 +02:00 [Information] webpack built b6e2f45f8f456b2dcf72 in 3307ms
+2018-07-29 18:15:06.052 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-07-29 18:15:06.431 +02:00 [Information] Executed action "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" in 4079.0727ms
+2018-07-29 18:15:06.438 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/dist/main-client.js?v=GbXIzunGvjtrwqAD5sIOxiBJ-iff9Y9cHS1ULfkEeYA  
+2018-07-29 18:15:06.446 +02:00 [Information] Request finished in 4382.5186ms 200 text/html; charset=utf-8
+2018-07-29 18:15:06.521 +02:00 [Information] Request finished in 82.8763ms 200 application/javascript; charset=UTF-8
+2018-07-29 18:15:06.663 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/dist/0.js  
+2018-07-29 18:15:06.670 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/dist/__webpack_hmr  
+2018-07-29 18:15:06.688 +02:00 [Information] Request finished in 25.6668ms 200 application/javascript; charset=UTF-8
+2018-07-29 18:15:15.335 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/login?returnUrl=w application/json 
+2018-07-29 18:15:15.357 +02:00 [Information] Executing action method "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" with arguments (null) - ModelState is Valid
+2018-07-29 18:15:15.359 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-07-29 18:15:15.359 +02:00 [Information] Executed action "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" in 11.9549ms
+2018-07-29 18:15:15.359 +02:00 [Information] Request finished in 24.7813ms 200 text/html; charset=utf-8
+2018-07-29 18:15:26.321 +02:00 [Information] Request starting HTTP/1.1 POST http://localhost:26106/login?returnUrl=w application/json 12
+2018-07-29 18:15:26.663 +02:00 [Information] Executing action method "Aceout.WebUI.Controllers.AccountController.Login (Aceout.WebUI)" with arguments (["Aceout.WebUI.Model.LoginViewModel", "w"]) - ModelState is Invalid
+2018-07-29 18:22:25.812 +02:00 [Information] User profile is available. Using '"C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-07-29 18:22:28.646 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/  
+2018-07-29 18:22:28.646 +02:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:26106/  0
+2018-07-29 18:22:28.743 +02:00 [Information] Request finished in 99.4022ms 200 
+2018-07-29 18:22:28.960 +02:00 [Information] Executing action method "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" with arguments (null) - ModelState is Valid
+2018-07-29 18:22:31.330 +02:00 [Information] webpack built b6e2f45f8f456b2dcf72 in 3136ms
+2018-07-29 18:22:32.481 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-07-29 18:22:32.922 +02:00 [Information] Executed action "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" in 4026.4647ms
+2018-07-29 18:22:32.935 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/dist/main-client.js?v=GbXIzunGvjtrwqAD5sIOxiBJ-iff9Y9cHS1ULfkEeYA  
+2018-07-29 18:22:32.938 +02:00 [Information] Request finished in 4299.6408ms 200 text/html; charset=utf-8
+2018-07-29 18:22:33.020 +02:00 [Information] Request finished in 84.6572ms 200 application/javascript; charset=UTF-8
+2018-07-29 18:22:33.156 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/dist/0.js  
+2018-07-29 18:22:33.164 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/dist/__webpack_hmr  
+2018-07-29 18:22:33.192 +02:00 [Information] Request finished in 35.7586ms 200 application/javascript; charset=UTF-8
+2018-07-29 18:23:33.038 +02:00 [Information] Request starting HTTP/1.1 POST http://localhost:26106/register application/json 93
+2018-07-29 18:23:33.388 +02:00 [Information] Executing action method "Aceout.WebUI.Controllers.AccountController.Register (Aceout.WebUI)" with arguments (["Aceout.WebUI.Model.RegisterViewModel"]) - ModelState is Invalid
+2018-07-29 18:24:21.949 +02:00 [Information] User profile is available. Using '"C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-07-29 18:24:24.854 +02:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:26106/  0
+2018-07-29 18:24:24.854 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/  
+2018-07-29 18:24:24.854 +02:00 [Information] Request starting HTTP/1.1 POST http://localhost:26106/register application/json 93
+2018-07-29 18:24:24.950 +02:00 [Information] Request finished in 100.7061ms 200 
+2018-07-29 18:24:25.171 +02:00 [Information] Executing action method "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" with arguments (null) - ModelState is Valid
+2018-07-29 18:24:25.549 +02:00 [Information] Executing action method "Aceout.WebUI.Controllers.AccountController.Register (Aceout.WebUI)" with arguments (["Aceout.WebUI.Model.RegisterViewModel"]) - ModelState is Valid
+2018-07-29 18:24:29.641 +02:00 [Information] webpack built b6e2f45f8f456b2dcf72 in 3323ms
+2018-07-29 18:24:30.805 +02:00 [Warning] User "0" validation failed: "InvalidUserName".
+2018-07-29 18:24:55.909 +02:00 [Information] User profile is available. Using '"C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-07-29 18:24:58.720 +02:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:26106/  0
+2018-07-29 18:24:58.720 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/  
+2018-07-29 18:24:58.822 +02:00 [Information] Request finished in 96.3393ms 200 
+2018-07-29 18:24:59.045 +02:00 [Information] Executing action method "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" with arguments (null) - ModelState is Valid
+2018-07-29 18:25:01.260 +02:00 [Information] webpack built b6e2f45f8f456b2dcf72 in 3142ms
+2018-07-29 18:25:02.583 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-07-29 18:25:02.946 +02:00 [Information] Executed action "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" in 3961.6167ms
+2018-07-29 18:25:02.958 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/dist/main-client.js?v=GbXIzunGvjtrwqAD5sIOxiBJ-iff9Y9cHS1ULfkEeYA  
+2018-07-29 18:25:02.960 +02:00 [Information] Request finished in 4248.6337ms 200 text/html; charset=utf-8
+2018-07-29 18:25:03.027 +02:00 [Information] Request finished in 69.4832ms 200 application/javascript; charset=UTF-8
+2018-07-29 18:25:03.172 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/dist/0.js  
+2018-07-29 18:25:03.190 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/dist/__webpack_hmr  
+2018-07-29 18:25:03.208 +02:00 [Information] Request finished in 36.152ms 200 application/javascript; charset=UTF-8
+2018-07-29 18:25:06.771 +02:00 [Information] Request starting HTTP/1.1 POST http://localhost:26106/register application/json 93
+2018-07-29 18:25:07.110 +02:00 [Information] Executing action method "Aceout.WebUI.Controllers.AccountController.Register (Aceout.WebUI)" with arguments (["Aceout.WebUI.Model.RegisterViewModel"]) - ModelState is Valid
+2018-07-29 18:25:10.688 +02:00 [Information] Executed action "Aceout.WebUI.Controllers.AccountController.Register (Aceout.WebUI)" in 3879.9175ms
+2018-07-29 18:25:10.694 +02:00 [Error] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Aceout.Infrastructure.Identity.UserStore.MapToUser(UserDto user) in C:\Programowanie\Aceout\Aceout.Infrastructure\Identity\UserStore.cs:line 330
+   at Aceout.Infrastructure.Identity.UserStore.FindByNameAsync(String normalizedUserName, CancellationToken cancellationToken) in C:\Programowanie\Aceout\Aceout.Infrastructure\Identity\UserStore.cs:line 70
+   at Microsoft.AspNetCore.Identity.UserManager`1.FindByNameAsync(String userName)
+   at Microsoft.AspNetCore.Identity.UserValidator`1.ValidateUserName(UserManager`1 manager, TUser user, ICollection`1 errors)
+   at Microsoft.AspNetCore.Identity.UserValidator`1.ValidateAsync(UserManager`1 manager, TUser user)
+   at Microsoft.AspNetCore.Identity.UserManager`1.ValidateUserAsync(TUser user)
+   at Microsoft.AspNetCore.Identity.UserManager`1.CreateAsync(TUser user)
+   at Microsoft.AspNetCore.Identity.UserManager`1.CreateAsync(TUser user, String password)
+   at Aceout.WebUI.Controllers.AccountController.Register(RegisterViewModel registerViewModel) in C:\Programowanie\Aceout\Aceout.WebUI\Controllers\AccountController.cs:line 83
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.SpaServices.Webpack.ConditionalProxyMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.SpaServices.Webpack.ConditionalProxyMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2018-07-29 18:25:24.874 +02:00 [Information] Request finished in 18089.7171ms 500 text/html; charset=utf-8
+2018-07-29 18:25:31.799 +02:00 [Information] Request starting HTTP/1.1 POST http://localhost:26106/register application/json 93
+2018-07-29 18:25:31.815 +02:00 [Information] Executing action method "Aceout.WebUI.Controllers.AccountController.Register (Aceout.WebUI)" with arguments (["Aceout.WebUI.Model.RegisterViewModel"]) - ModelState is Valid
+2018-07-29 18:25:33.674 +02:00 [Information] Executed action "Aceout.WebUI.Controllers.AccountController.Register (Aceout.WebUI)" in 1873.7234ms
+2018-07-29 18:25:33.675 +02:00 [Error] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Aceout.Infrastructure.Identity.UserStore.MapToUser(UserDto user) in C:\Programowanie\Aceout\Aceout.Infrastructure\Identity\UserStore.cs:line 330
+   at Aceout.Infrastructure.Identity.UserStore.FindByNameAsync(String normalizedUserName, CancellationToken cancellationToken) in C:\Programowanie\Aceout\Aceout.Infrastructure\Identity\UserStore.cs:line 70
+   at Microsoft.AspNetCore.Identity.UserManager`1.FindByNameAsync(String userName)
+   at Microsoft.AspNetCore.Identity.UserValidator`1.ValidateUserName(UserManager`1 manager, TUser user, ICollection`1 errors)
+   at Microsoft.AspNetCore.Identity.UserValidator`1.ValidateAsync(UserManager`1 manager, TUser user)
+   at Microsoft.AspNetCore.Identity.UserManager`1.ValidateUserAsync(TUser user)
+   at Microsoft.AspNetCore.Identity.UserManager`1.CreateAsync(TUser user)
+   at Microsoft.AspNetCore.Identity.UserManager`1.CreateAsync(TUser user, String password)
+   at Aceout.WebUI.Controllers.AccountController.Register(RegisterViewModel registerViewModel) in C:\Programowanie\Aceout\Aceout.WebUI\Controllers\AccountController.cs:line 83
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.SpaServices.Webpack.ConditionalProxyMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.SpaServices.Webpack.ConditionalProxyMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2018-07-29 18:25:33.684 +02:00 [Information] Request finished in 1884.9897ms 500 text/html; charset=utf-8
+2018-07-29 18:26:54.796 +02:00 [Information] User profile is available. Using '"C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-07-29 18:26:57.583 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/  
+2018-07-29 18:26:57.583 +02:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:26106/  0
+2018-07-29 18:26:57.683 +02:00 [Information] Request finished in 104.3976ms 200 
+2018-07-29 18:26:57.896 +02:00 [Information] Executing action method "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" with arguments (null) - ModelState is Valid
+2018-07-29 18:27:00.177 +02:00 [Information] webpack built b6e2f45f8f456b2dcf72 in 3167ms
+2018-07-29 18:27:01.435 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-07-29 18:27:01.904 +02:00 [Information] Executed action "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" in 4073.9441ms
+2018-07-29 18:27:01.917 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/dist/main-client.js?v=GbXIzunGvjtrwqAD5sIOxiBJ-iff9Y9cHS1ULfkEeYA  
+2018-07-29 18:27:01.918 +02:00 [Information] Request finished in 4343.5895ms 200 text/html; charset=utf-8
+2018-07-29 18:27:01.984 +02:00 [Information] Request finished in 67.2435ms 200 application/javascript; charset=UTF-8
+2018-07-29 18:27:02.141 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/dist/0.js  
+2018-07-29 18:27:02.149 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/dist/__webpack_hmr  
+2018-07-29 18:27:02.174 +02:00 [Information] Request finished in 33.388ms 200 application/javascript; charset=UTF-8
+2018-07-29 18:27:06.759 +02:00 [Information] Request starting HTTP/1.1 POST http://localhost:26106/register application/json 93
+2018-07-29 18:27:07.106 +02:00 [Information] Executing action method "Aceout.WebUI.Controllers.AccountController.Register (Aceout.WebUI)" with arguments (["Aceout.WebUI.Model.RegisterViewModel"]) - ModelState is Valid
+2018-07-29 18:27:37.777 +02:00 [Information] Executed action "Aceout.WebUI.Controllers.AccountController.Register (Aceout.WebUI)" in 30976.8032ms
+2018-07-29 18:27:37.780 +02:00 [Error] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Aceout.Infrastructure.Identity.UserStore.MapToUser(UserDto user) in C:\Programowanie\Aceout\Aceout.Infrastructure\Identity\UserStore.cs:line 330
+   at Aceout.Infrastructure.Identity.UserStore.FindByNameAsync(String normalizedUserName, CancellationToken cancellationToken) in C:\Programowanie\Aceout\Aceout.Infrastructure\Identity\UserStore.cs:line 70
+   at Microsoft.AspNetCore.Identity.UserManager`1.FindByNameAsync(String userName)
+   at Microsoft.AspNetCore.Identity.UserValidator`1.ValidateUserName(UserManager`1 manager, TUser user, ICollection`1 errors)
+   at Microsoft.AspNetCore.Identity.UserValidator`1.ValidateAsync(UserManager`1 manager, TUser user)
+   at Microsoft.AspNetCore.Identity.UserManager`1.ValidateUserAsync(TUser user)
+   at Microsoft.AspNetCore.Identity.UserManager`1.CreateAsync(TUser user)
+   at Microsoft.AspNetCore.Identity.UserManager`1.CreateAsync(TUser user, String password)
+   at Aceout.WebUI.Controllers.AccountController.Register(RegisterViewModel registerViewModel) in C:\Programowanie\Aceout\Aceout.WebUI\Controllers\AccountController.cs:line 85
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.SpaServices.Webpack.ConditionalProxyMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.SpaServices.Webpack.ConditionalProxyMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2018-07-29 18:27:37.781 +02:00 [Information] Request finished in 35632.3999ms 200 text/event-stream; charset=utf-8
+2018-07-29 18:27:37.860 +02:00 [Information] Request finished in 31100.8816ms 500 text/html; charset=utf-8
+2018-07-29 18:27:42.294 +02:00 [Information] Request starting HTTP/1.1 POST http://localhost:26106/register application/json 93
+2018-07-29 18:27:42.308 +02:00 [Information] Executing action method "Aceout.WebUI.Controllers.AccountController.Register (Aceout.WebUI)" with arguments (["Aceout.WebUI.Model.RegisterViewModel"]) - ModelState is Valid
+2018-07-29 18:28:06.258 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/dist/__webpack_hmr  
+2018-07-29 18:29:30.840 +02:00 [Information] User profile is available. Using '"C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-07-29 18:29:33.785 +02:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:26106/  0
+2018-07-29 18:29:33.785 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/  
+2018-07-29 18:29:33.881 +02:00 [Information] Request finished in 94.7962ms 200 
+2018-07-29 18:29:34.095 +02:00 [Information] Executing action method "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" with arguments (null) - ModelState is Valid
+2018-07-29 18:29:34.214 +02:00 [Information] Request starting HTTP/1.1 POST http://localhost:26106/register application/json 93
+2018-07-29 18:29:34.642 +02:00 [Information] Executing action method "Aceout.WebUI.Controllers.AccountController.Register (Aceout.WebUI)" with arguments (["Aceout.WebUI.Model.RegisterViewModel"]) - ModelState is Valid
+2018-07-29 18:29:38.137 +02:00 [Information] webpack built b6e2f45f8f456b2dcf72 in 3209ms
+2018-07-29 18:39:08.058 +02:00 [Information] User profile is available. Using '"C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-07-29 18:39:10.895 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/  
+2018-07-29 18:39:10.895 +02:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:26106/  0
+2018-07-29 18:39:10.988 +02:00 [Information] Request finished in 96.3552ms 200 
+2018-07-29 18:39:11.228 +02:00 [Information] Executing action method "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" with arguments (null) - ModelState is Valid
+2018-07-29 18:39:13.643 +02:00 [Information] webpack built b6e2f45f8f456b2dcf72 in 3258ms
+2018-07-29 18:39:14.883 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-07-29 18:39:15.254 +02:00 [Information] Executed action "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" in 4089.77ms
+2018-07-29 18:39:15.268 +02:00 [Information] Request finished in 4381.1814ms 200 text/html; charset=utf-8
+2018-07-29 18:39:15.270 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/dist/main-client.js?v=GbXIzunGvjtrwqAD5sIOxiBJ-iff9Y9cHS1ULfkEeYA  
+2018-07-29 18:39:15.347 +02:00 [Information] Request finished in 77.6601ms 200 application/javascript; charset=UTF-8
+2018-07-29 18:39:15.488 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/dist/0.js  
+2018-07-29 18:39:15.496 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/dist/__webpack_hmr  
+2018-07-29 18:39:15.524 +02:00 [Information] Request finished in 36.0214ms 200 application/javascript; charset=UTF-8
+2018-07-29 18:39:18.135 +02:00 [Information] Request starting HTTP/1.1 POST http://localhost:26106/register application/json 93
+2018-07-29 18:39:18.484 +02:00 [Information] Executing action method "Aceout.WebUI.Controllers.AccountController.Register (Aceout.WebUI)" with arguments (["Aceout.WebUI.Model.RegisterViewModel"]) - ModelState is Valid
+2018-07-29 18:41:26.113 +02:00 [Fatal] Application startup exception
+NHibernate.MappingException: Unable to instantiate mapping class (see InnerException): Aceout.Infrastructure.DataModel.Identity.UserRoleMapping ---> System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.ArgumentException: Invalid expression type: Expected ExpressionType.MemberAccess, Found New
+Parameter name: expression
+   at NHibernate.Mapping.ByCode.TypeExtensions.DecodeMemberAccessExpression[TEntity,TProperty](Expression`1 expression)
+   at NHibernate.Mapping.ByCode.Impl.CustomizersImpl.ClassCustomizer`1.Id[TProperty](Expression`1 idProperty, Action`1 idMapper)
+   at Aceout.Infrastructure.DataModel.Identity.UserRoleMapping..ctor() in C:\Programowanie\Aceout\Aceout.Infrastructure\DataModel\Identity\UserRoleDto.cs:line 21
+   --- End of inner exception stack trace ---
+   at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean wrapExceptions, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor)
+   at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean wrapExceptions, Boolean skipCheckThis, Boolean fillCache)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic, Boolean wrapExceptions)
+   at NHibernate.Mapping.ByCode.ModelMapper.AddMapping(Type type)
+   --- End of inner exception stack trace ---
+   at NHibernate.Mapping.ByCode.ModelMapper.AddMapping(Type type)
+   at NHibernate.Mapping.ByCode.ModelMapper.AddMappings(IEnumerable`1 types)
+   at Aceout.Infrastructure.Modules.InfrastructureModule.Load(ContainerBuilder builder) in C:\Programowanie\Aceout\Aceout.Infrastructure\Modules\InfrastructureModule.cs:line 46
+   at Autofac.Module.Configure(IComponentRegistry componentRegistry)
+   at Autofac.ContainerBuilder.Build(IComponentRegistry componentRegistry, Boolean excludeDefaultModules)
+   at Autofac.ContainerBuilder.Build(ContainerBuildOptions options)
+   at Aceout.WebUI.Startup.ConfigureServices(IServiceCollection services) in C:\Programowanie\Aceout\Aceout.WebUI\Startup.cs:line 124
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Hosting.ConventionBasedStartup.ConfigureServices(IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.EnsureApplicationServices()
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.Initialize()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.BuildApplication()
+2018-07-29 18:41:26.509 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/  
+2018-07-29 18:41:26.592 +02:00 [Information] Request finished in 87.086ms 500 text/html; charset=utf-8
+2018-07-29 18:43:49.686 +02:00 [Fatal] Application startup exception
+NHibernate.MappingException: Could not compile the mapping document: mapping_by_code ---> NHibernate.MappingException: composite-id class must override Equals(): Aceout.Infrastructure.DataModel.Identity.UserRoleDto
+   at NHibernate.Cfg.XmlHbmBinding.ClassCompositeIdBinder.CheckEqualsAndGetHashCodeOverride()
+   at NHibernate.Cfg.XmlHbmBinding.RootClassBinder.Bind(HbmClass classSchema, IDictionary`2 inheritedMetas)
+   at NHibernate.Cfg.XmlHbmBinding.MappingRootBinder.AddEntitiesMappings(HbmMapping mappingSchema, IDictionary`2 inheritedMetas)
+   at NHibernate.Cfg.XmlHbmBinding.MappingRootBinder.Bind(HbmMapping mappingSchema)
+   at NHibernate.Cfg.Configuration.AddDeserializedMapping(HbmMapping mappingDocument, String documentFileName)
+   --- End of inner exception stack trace ---
+   at NHibernate.Cfg.Configuration.LogAndThrow(Exception exception)
+   at NHibernate.Cfg.Configuration.AddDeserializedMapping(HbmMapping mappingDocument, String documentFileName)
+   at Aceout.Infrastructure.Modules.InfrastructureModule.Load(ContainerBuilder builder) in C:\Programowanie\Aceout\Aceout.Infrastructure\Modules\InfrastructureModule.cs:line 48
+   at Autofac.Module.Configure(IComponentRegistry componentRegistry)
+   at Autofac.ContainerBuilder.Build(IComponentRegistry componentRegistry, Boolean excludeDefaultModules)
+   at Autofac.ContainerBuilder.Build(ContainerBuildOptions options)
+   at Aceout.WebUI.Startup.ConfigureServices(IServiceCollection services) in C:\Programowanie\Aceout\Aceout.WebUI\Startup.cs:line 124
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Hosting.ConventionBasedStartup.ConfigureServices(IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.EnsureApplicationServices()
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.Initialize()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.BuildApplication()
+2018-07-29 18:43:50.018 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/  
+2018-07-29 18:43:50.098 +02:00 [Information] Connection id ""0HLFLE9R1CG3K"" request processing ended abnormally.
+System.IO.IOException: Istniejące połączenie zostało gwałtownie zamknięte przez zdalnego hosta ---> System.Net.Sockets.SocketException: Istniejące połączenie zostało gwałtownie zamknięte przez zdalnego hosta
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.Internal.SocketAwaitable.GetResult()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.Internal.SocketConnection.ProcessSends()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.Internal.SocketConnection.DoSend()
+   --- End of inner exception stack trace ---
+   at System.IO.Pipelines.PipeCompletion.ThrowLatchedException()
+   at System.IO.Pipelines.Pipe.GetFlushResult(FlushResult& result)
+   at System.IO.Pipelines.Pipe.FlushAsync(CancellationToken cancellationToken)
+   at System.IO.Pipelines.Pipe.DefaultPipeWriter.FlushAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1OutputProducer.WriteAsync(ReadOnlySpan`1 buffer, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1OutputProducer.WriteStreamSuffixAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.WriteSuffixAwaited()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequestsAsync[TContext](IHttpApplication`1 application)
+2018-07-29 18:46:42.679 +02:00 [Information] User profile is available. Using '"C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-07-29 18:46:45.585 +02:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:26106/  0
+2018-07-29 18:46:45.585 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/  
+2018-07-29 18:46:45.688 +02:00 [Information] Request finished in 107.0617ms 200 
+2018-07-29 18:46:45.896 +02:00 [Information] Executing action method "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" with arguments (null) - ModelState is Valid
+2018-07-29 18:46:48.085 +02:00 [Information] webpack built b6e2f45f8f456b2dcf72 in 3177ms
+2018-07-29 18:46:49.526 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-07-29 18:46:49.933 +02:00 [Information] Executed action "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" in 4096.9753ms
+2018-07-29 18:46:49.947 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/dist/main-client.js?v=GbXIzunGvjtrwqAD5sIOxiBJ-iff9Y9cHS1ULfkEeYA  
+2018-07-29 18:46:49.949 +02:00 [Information] Request finished in 4373.1763ms 200 text/html; charset=utf-8
+2018-07-29 18:46:50.027 +02:00 [Information] Request finished in 80.7691ms 200 application/javascript; charset=UTF-8
+2018-07-29 18:46:50.168 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/dist/0.js  
+2018-07-29 18:46:50.177 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/dist/__webpack_hmr  
+2018-07-29 18:46:50.201 +02:00 [Information] Request finished in 33.5652ms 200 application/javascript; charset=UTF-8
+2018-07-29 18:46:53.038 +02:00 [Information] Request starting HTTP/1.1 POST http://localhost:26106/register application/json 93
+2018-07-29 18:47:36.876 +02:00 [Information] User profile is available. Using '"C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-07-29 18:47:39.614 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/  
+2018-07-29 18:47:39.614 +02:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:26106/  0
+2018-07-29 18:47:39.714 +02:00 [Information] Request finished in 102.6992ms 200 
+2018-07-29 18:47:39.930 +02:00 [Information] Executing action method "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" with arguments (null) - ModelState is Valid
+2018-07-29 18:47:42.216 +02:00 [Information] webpack built b6e2f45f8f456b2dcf72 in 3117ms
+2018-07-29 18:47:43.477 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-07-29 18:47:43.924 +02:00 [Information] Executed action "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" in 4056.106ms
+2018-07-29 18:47:43.928 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/dist/main-client.js?v=GbXIzunGvjtrwqAD5sIOxiBJ-iff9Y9cHS1ULfkEeYA  
+2018-07-29 18:47:43.939 +02:00 [Information] Request finished in 4333.4186ms 200 text/html; charset=utf-8
+2018-07-29 18:47:44.004 +02:00 [Information] Request finished in 75.6135ms 200 application/javascript; charset=UTF-8
+2018-07-29 18:47:44.172 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/dist/0.js  
+2018-07-29 18:47:44.181 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/dist/__webpack_hmr  
+2018-07-29 18:47:44.212 +02:00 [Information] Request finished in 39.9604ms 200 application/javascript; charset=UTF-8
+2018-07-29 18:47:49.793 +02:00 [Information] Request starting HTTP/1.1 POST http://localhost:26106/register application/json 93
+2018-07-29 19:18:15.160 +02:00 [Information] User profile is available. Using '"C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-07-29 19:18:17.933 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/  
+2018-07-29 19:18:17.933 +02:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:26106/  0
+2018-07-29 19:18:18.028 +02:00 [Information] Request finished in 95.5963ms 200 
+2018-07-29 19:18:18.267 +02:00 [Information] Executing action method "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" with arguments (null) - ModelState is Valid
+2018-07-29 19:18:20.753 +02:00 [Information] webpack built b6e2f45f8f456b2dcf72 in 3332ms
+2018-07-29 19:18:21.892 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-07-29 19:18:22.270 +02:00 [Information] Executed action "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" in 4082.4203ms
+2018-07-29 19:18:22.282 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/dist/main-client.js?v=GbXIzunGvjtrwqAD5sIOxiBJ-iff9Y9cHS1ULfkEeYA  
+2018-07-29 19:18:22.283 +02:00 [Information] Request finished in 4359.8984ms 200 text/html; charset=utf-8
+2018-07-29 19:18:22.354 +02:00 [Information] Request finished in 72.3399ms 200 application/javascript; charset=UTF-8
+2018-07-29 19:18:22.498 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/dist/0.js  
+2018-07-29 19:18:22.507 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/dist/__webpack_hmr  
+2018-07-29 19:18:22.527 +02:00 [Information] Request finished in 29.0804ms 200 application/javascript; charset=UTF-8
+2018-07-29 19:21:21.396 +02:00 [Information] User profile is available. Using '"C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-07-29 19:21:24.198 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/  
+2018-07-29 19:21:24.426 +02:00 [Information] Executing action method "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" with arguments (null) - ModelState is Valid
+2018-07-29 19:21:26.728 +02:00 [Information] webpack built b6e2f45f8f456b2dcf72 in 3080ms
+2018-07-29 19:21:27.749 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-07-29 19:21:28.101 +02:00 [Information] Executed action "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" in 3703.3929ms
+2018-07-29 19:21:28.111 +02:00 [Information] Request finished in 3918.5644ms 200 text/html; charset=utf-8
+2018-07-29 19:23:48.723 +02:00 [Information] User profile is available. Using '"C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-07-29 19:23:51.653 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/  
+2018-07-29 19:23:51.653 +02:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:26106/  0
+2018-07-29 19:23:51.760 +02:00 [Information] Request finished in 109.4027ms 200 
+2018-07-29 19:23:51.975 +02:00 [Information] Executing action method "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" with arguments (null) - ModelState is Valid
+2018-07-29 19:23:54.273 +02:00 [Information] webpack built b6e2f45f8f456b2dcf72 in 3297ms
+2018-07-29 19:23:55.603 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-07-29 19:23:56.102 +02:00 [Information] Executed action "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" in 4191.9118ms
+2018-07-29 19:23:56.109 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/dist/main-client.js?v=GbXIzunGvjtrwqAD5sIOxiBJ-iff9Y9cHS1ULfkEeYA  
+2018-07-29 19:23:56.115 +02:00 [Information] Request finished in 4471.1833ms 200 text/html; charset=utf-8
+2018-07-29 19:23:56.182 +02:00 [Information] Request finished in 72.7583ms 200 application/javascript; charset=UTF-8
+2018-07-29 19:23:56.325 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/dist/0.js  
+2018-07-29 19:23:56.349 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/dist/__webpack_hmr  
+2018-07-29 19:23:56.350 +02:00 [Information] Request finished in 24.0941ms 200 application/javascript; charset=UTF-8
+2018-07-29 19:23:59.599 +02:00 [Information] Request starting HTTP/1.1 POST http://localhost:26106/register application/json 93
+2018-07-29 19:28:02.907 +02:00 [Information] User profile is available. Using '"C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-07-29 19:28:05.712 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/  
+2018-07-29 19:28:05.712 +02:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:26106/  0
+2018-07-29 19:28:05.816 +02:00 [Information] Request finished in 106.2144ms 200 
+2018-07-29 19:28:06.039 +02:00 [Information] Executing action method "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" with arguments (null) - ModelState is Valid
+2018-07-29 19:28:08.553 +02:00 [Information] webpack built b6e2f45f8f456b2dcf72 in 3387ms
+2018-07-29 19:28:09.058 +02:00 [Information] Request starting HTTP/1.1 POST http://localhost:26106/register application/json 93
+2018-07-29 22:15:31.490 +02:00 [Information] User profile is available. Using '"C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-07-29 22:15:34.887 +02:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:26106/  0
+2018-07-29 22:15:34.887 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/  
+2018-07-29 22:15:34.981 +02:00 [Information] Request finished in 90.0474ms 200 
+2018-07-29 22:15:35.209 +02:00 [Information] Executing action method "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" with arguments (null) - ModelState is Valid
+2018-07-29 22:15:37.760 +02:00 [Information] webpack built b6e2f45f8f456b2dcf72 in 3373ms
+2018-07-29 22:15:38.986 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-07-29 22:15:39.562 +02:00 [Information] Executed action "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" in 4416.1024ms
+2018-07-29 22:15:39.575 +02:00 [Information] Request finished in 4697.4492ms 200 text/html; charset=utf-8
+2018-07-29 22:15:39.576 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/dist/main-client.js?v=GbXIzunGvjtrwqAD5sIOxiBJ-iff9Y9cHS1ULfkEeYA  
+2018-07-29 22:15:39.648 +02:00 [Information] Request finished in 72.1206ms 200 application/javascript; charset=UTF-8
+2018-07-29 22:15:39.801 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/dist/0.js  
+2018-07-29 22:15:39.819 +02:00 [Information] Request finished in 17.9123ms 200 application/javascript; charset=UTF-8
+2018-07-29 22:15:39.821 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/dist/__webpack_hmr  
+2018-07-29 22:15:50.619 +02:00 [Information] Request starting HTTP/1.1 POST http://localhost:26106/register application/json 93
+2018-07-29 22:15:51.331 +02:00 [Information] Executing action method "Aceout.WebUI.Controllers.AccountController.Register (Aceout.WebUI)" with arguments (["Aceout.WebUI.Model.RegisterViewModel"]) - ModelState is Valid
+2018-07-29 22:18:01.446 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/dist/__webpack_hmr  
+2018-07-29 22:20:53.662 +02:00 [Information] Executing HttpStatusCodeResult, setting HTTP status code 200
+2018-07-29 22:20:53.662 +02:00 [Information] Executed action "Aceout.WebUI.Controllers.AccountController.Register (Aceout.WebUI)" in 302999.1364ms
+2018-07-29 22:20:53.668 +02:00 [Information] Request finished in 313847.8008ms 200 text/event-stream; charset=utf-8
+2018-07-29 22:20:53.670 +02:00 [Information] Request finished in 303051.3607ms 200 
+2018-07-29 22:20:57.849 +02:00 [Information] Request starting HTTP/1.1 POST http://localhost:26106/register application/json 93
+2018-07-29 22:20:57.877 +02:00 [Information] Executing action method "Aceout.WebUI.Controllers.AccountController.Register (Aceout.WebUI)" with arguments (["Aceout.WebUI.Model.RegisterViewModel"]) - ModelState is Valid
+2018-07-29 22:22:27.387 +02:00 [Information] User profile is available. Using '"C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-07-29 22:22:30.207 +02:00 [Information] Request starting HTTP/1.1 POST http://localhost:26106/register application/json 93
+2018-07-29 22:22:30.207 +02:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:26106/  0
+2018-07-29 22:22:30.207 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/  
+2018-07-29 22:22:30.309 +02:00 [Information] Request finished in 107.5657ms 200 
+2018-07-29 22:22:30.560 +02:00 [Information] Executing action method "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" with arguments (null) - ModelState is Valid
+2018-07-29 22:22:31.178 +02:00 [Information] Executing action method "Aceout.WebUI.Controllers.AccountController.Register (Aceout.WebUI)" with arguments (["Aceout.WebUI.Model.RegisterViewModel"]) - ModelState is Valid
+2018-07-29 22:22:34.107 +02:00 [Information] webpack built b6e2f45f8f456b2dcf72 in 3238ms
+2018-07-29 22:25:56.500 +02:00 [Information] User profile is available. Using '"C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-07-29 22:25:59.413 +02:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:26106/  0
+2018-07-29 22:25:59.413 +02:00 [Information] Request starting HTTP/1.1 POST http://localhost:26106/register application/json 93
+2018-07-29 22:25:59.413 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/  
+2018-07-29 22:25:59.513 +02:00 [Information] Request finished in 103.7553ms 200 
+2018-07-29 22:25:59.737 +02:00 [Information] Executing action method "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" with arguments (null) - ModelState is Valid
+2018-07-29 22:26:00.382 +02:00 [Information] Executing action method "Aceout.WebUI.Controllers.AccountController.Register (Aceout.WebUI)" with arguments (["Aceout.WebUI.Model.RegisterViewModel"]) - ModelState is Valid
+2018-07-29 22:26:04.341 +02:00 [Information] webpack built b6e2f45f8f456b2dcf72 in 3232ms
+2018-07-29 22:26:55.458 +02:00 [Information] Executing HttpStatusCodeResult, setting HTTP status code 200
+2018-07-29 22:26:55.465 +02:00 [Information] Executed action "Aceout.WebUI.Controllers.AccountController.Register (Aceout.WebUI)" in 55777.3445ms
+2018-07-29 22:26:55.475 +02:00 [Information] Request finished in 56071.9607ms 200 
+2018-07-29 22:26:58.416 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-07-29 22:27:38.349 +02:00 [Information] User profile is available. Using '"C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-07-29 22:27:41.003 +02:00 [Information] Request starting HTTP/1.1 POST http://localhost:26106/login application/json 58
+2018-07-29 22:27:41.803 +02:00 [Information] Executing action method "Aceout.WebUI.Controllers.AccountController.Login (Aceout.WebUI)" with arguments (["Aceout.WebUI.Model.LoginViewModel", ""]) - ModelState is Invalid
+2018-07-29 22:27:41.812 +02:00 [Information] Executing HttpStatusCodeResult, setting HTTP status code 400
+2018-07-29 22:27:41.819 +02:00 [Information] Executed action "Aceout.WebUI.Controllers.AccountController.Login (Aceout.WebUI)" in 592.8314ms
+2018-07-29 22:27:41.860 +02:00 [Information] Request finished in 861.3805ms 400 
+2018-07-29 22:27:43.510 +02:00 [Information] webpack built b6e2f45f8f456b2dcf72 in 3035ms
+2018-07-29 22:27:55.263 +02:00 [Information] Request starting HTTP/1.1 POST http://localhost:26106/login application/json 58
+2018-07-29 22:27:55.266 +02:00 [Information] Executing action method "Aceout.WebUI.Controllers.AccountController.Login (Aceout.WebUI)" with arguments (["Aceout.WebUI.Model.LoginViewModel", ""]) - ModelState is Valid
+2018-07-29 22:27:55.520 +02:00 [Information] Executed action "Aceout.WebUI.Controllers.AccountController.Login (Aceout.WebUI)" in 255.6731ms
+2018-07-29 22:27:55.521 +02:00 [Error] An unhandled exception has occurred while executing the request.
+System.ArgumentException: IDX10634: Unable to create the SignatureProvider.
+Algorithm: 'SHA256', SecurityKey: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey'
+ is not supported.
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateSignatureProvider(SecurityKey key, String algorithm, Boolean willCreateSignatures)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateEncodedSignature(String input, SigningCredentials signingCredentials)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.WriteToken(SecurityToken token)
+   at Aceout.WebUI.Controllers.AccountController.Login(LoginViewModel loginViewModel, String returnUrl) in C:\Programowanie\Aceout\Aceout.WebUI\Controllers\AccountController.cs:line 63
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.SpaServices.Webpack.ConditionalProxyMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.SpaServices.Webpack.ConditionalProxyMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2018-07-29 22:27:55.620 +02:00 [Information] Request finished in 357.515ms 500 text/html; charset=utf-8
+2018-07-29 22:28:21.425 +02:00 [Information] Request starting HTTP/1.1 POST http://localhost:26106/login?returlUrl=http://www.wp.pl application/json 58
+2018-07-29 22:28:21.429 +02:00 [Information] Executing action method "Aceout.WebUI.Controllers.AccountController.Login (Aceout.WebUI)" with arguments (["Aceout.WebUI.Model.LoginViewModel", ""]) - ModelState is Valid
+2018-07-29 22:28:21.438 +02:00 [Information] Executed action "Aceout.WebUI.Controllers.AccountController.Login (Aceout.WebUI)" in 12.6267ms
+2018-07-29 22:28:21.438 +02:00 [Error] An unhandled exception has occurred while executing the request.
+System.ArgumentException: IDX10634: Unable to create the SignatureProvider.
+Algorithm: 'SHA256', SecurityKey: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey'
+ is not supported.
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateSignatureProvider(SecurityKey key, String algorithm, Boolean willCreateSignatures)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateEncodedSignature(String input, SigningCredentials signingCredentials)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.WriteToken(SecurityToken token)
+   at Aceout.WebUI.Controllers.AccountController.Login(LoginViewModel loginViewModel, String returnUrl) in C:\Programowanie\Aceout\Aceout.WebUI\Controllers\AccountController.cs:line 63
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.SpaServices.Webpack.ConditionalProxyMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.SpaServices.Webpack.ConditionalProxyMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2018-07-29 22:28:21.457 +02:00 [Information] Request finished in 31.7457ms 500 text/html; charset=utf-8
+2018-07-29 22:28:44.250 +02:00 [Information] User profile is available. Using '"C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-07-29 22:28:47.211 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/  
+2018-07-29 22:28:47.211 +02:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:26106/  0
+2018-07-29 22:28:47.211 +02:00 [Information] Request starting HTTP/1.1 POST http://localhost:26106/login?returlUrl=http://www.wp.pl application/json 58
+2018-07-29 22:28:47.307 +02:00 [Information] Request finished in 101.1484ms 200 
+2018-07-29 22:28:47.527 +02:00 [Information] Executing action method "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" with arguments (null) - ModelState is Valid
+2018-07-29 22:28:48.150 +02:00 [Information] Executing action method "Aceout.WebUI.Controllers.AccountController.Login (Aceout.WebUI)" with arguments (["Aceout.WebUI.Model.LoginViewModel", ""]) - ModelState is Valid
+2018-07-29 22:28:53.961 +02:00 [Information] webpack built b6e2f45f8f456b2dcf72 in 3190ms
+2018-07-29 22:29:35.490 +02:00 [Information] Executed action "Aceout.WebUI.Controllers.AccountController.Login (Aceout.WebUI)" in 48013.8709ms
+2018-07-29 22:29:35.496 +02:00 [Error] An unhandled exception has occurred while executing the request.
+System.ArgumentException: IDX10634: Unable to create the SignatureProvider.
+Algorithm: 'SHA256', SecurityKey: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey'
+ is not supported.
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateSignatureProvider(SecurityKey key, String algorithm, Boolean willCreateSignatures)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateEncodedSignature(String input, SigningCredentials signingCredentials)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.WriteToken(SecurityToken token)
+   at Aceout.WebUI.Controllers.AccountController.Login(LoginViewModel loginViewModel, String returnUrl) in C:\Programowanie\Aceout\Aceout.WebUI\Controllers\AccountController.cs:line 63
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.SpaServices.Webpack.ConditionalProxyMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.SpaServices.Webpack.ConditionalProxyMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2018-07-29 22:29:43.604 +02:00 [Information] Request finished in 56402.7758ms 500 text/html; charset=utf-8
+2018-07-29 22:29:46.651 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-07-29 22:29:47.061 +02:00 [Information] Executed action "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" in 59605.6607ms
+2018-07-29 22:29:47.064 +02:00 [Information] Request finished in 59863.2769ms 200 text/html; charset=utf-8
+2018-07-29 22:29:47.073 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/dist/main-client.js?v=GbXIzunGvjtrwqAD5sIOxiBJ-iff9Y9cHS1ULfkEeYA  
+2018-07-29 22:29:47.128 +02:00 [Information] Request finished in 55.2806ms 200 application/javascript; charset=UTF-8
+2018-07-29 22:29:47.284 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/dist/0.js  
+2018-07-29 22:29:47.304 +02:00 [Information] Request finished in 19.1806ms 200 application/javascript; charset=UTF-8
+2018-07-29 22:29:47.306 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/dist/__webpack_hmr  
+2018-07-29 22:29:58.425 +02:00 [Information] Request starting HTTP/1.1 POST http://localhost:26106/login application/json 58
+2018-07-29 22:29:58.442 +02:00 [Information] Executing action method "Aceout.WebUI.Controllers.AccountController.Login (Aceout.WebUI)" with arguments (["Aceout.WebUI.Model.LoginViewModel", ""]) - ModelState is Valid
+2018-07-29 22:30:25.279 +02:00 [Information] User profile is available. Using '"C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-07-29 22:30:28.131 +02:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:26106/  0
+2018-07-29 22:30:28.131 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/  
+2018-07-29 22:30:28.231 +02:00 [Information] Request finished in 99.0759ms 200 
+2018-07-29 22:30:28.449 +02:00 [Information] Executing action method "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" with arguments (null) - ModelState is Valid
+2018-07-29 22:30:30.812 +02:00 [Information] webpack built b6e2f45f8f456b2dcf72 in 3274ms
+2018-07-29 22:30:32.244 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-07-29 22:30:32.781 +02:00 [Information] Executed action "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" in 4395.7586ms
+2018-07-29 22:30:32.796 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/dist/main-client.js?v=GbXIzunGvjtrwqAD5sIOxiBJ-iff9Y9cHS1ULfkEeYA  
+2018-07-29 22:30:32.804 +02:00 [Information] Request finished in 4682.1131ms 200 text/html; charset=utf-8
+2018-07-29 22:30:32.876 +02:00 [Information] Request finished in 80.0884ms 200 application/javascript; charset=UTF-8
+2018-07-29 22:30:33.034 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/dist/0.js  
+2018-07-29 22:30:33.058 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/dist/__webpack_hmr  
+2018-07-29 22:30:33.058 +02:00 [Information] Request finished in 24.116ms 200 application/javascript; charset=UTF-8
+2018-07-29 22:30:40.829 +02:00 [Information] Request starting HTTP/1.1 POST http://localhost:26106/login application/json 58
+2018-07-29 22:30:41.466 +02:00 [Information] Executing action method "Aceout.WebUI.Controllers.AccountController.Login (Aceout.WebUI)" with arguments (["Aceout.WebUI.Model.LoginViewModel", ""]) - ModelState is Valid
+2018-07-29 22:31:23.677 +02:00 [Information] User profile is available. Using '"C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-07-29 22:31:26.544 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/  
+2018-07-29 22:31:26.544 +02:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:26106/  0
+2018-07-29 22:31:26.645 +02:00 [Information] Request finished in 105.0538ms 200 
+2018-07-29 22:31:26.870 +02:00 [Information] Executing action method "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" with arguments (null) - ModelState is Valid
+2018-07-29 22:31:29.314 +02:00 [Information] webpack built b6e2f45f8f456b2dcf72 in 3332ms
+2018-07-29 22:31:30.565 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-07-29 22:31:31.124 +02:00 [Information] Executed action "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" in 4313.6196ms
+2018-07-29 22:31:31.134 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/dist/main-client.js?v=GbXIzunGvjtrwqAD5sIOxiBJ-iff9Y9cHS1ULfkEeYA  
+2018-07-29 22:31:31.136 +02:00 [Information] Request finished in 4601.5963ms 200 text/html; charset=utf-8
+2018-07-29 22:31:31.210 +02:00 [Information] Request finished in 76.6444ms 200 application/javascript; charset=UTF-8
+2018-07-29 22:31:31.362 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/dist/0.js  
+2018-07-29 22:31:31.370 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/dist/__webpack_hmr  
+2018-07-29 22:31:31.390 +02:00 [Information] Request finished in 27.6804ms 200 application/javascript; charset=UTF-8
+2018-07-29 22:31:38.303 +02:00 [Information] Request starting HTTP/1.1 POST http://localhost:26106/login application/json 58
+2018-07-29 22:31:38.913 +02:00 [Information] Executing action method "Aceout.WebUI.Controllers.AccountController.Login (Aceout.WebUI)" with arguments (["Aceout.WebUI.Model.LoginViewModel", ""]) - ModelState is Valid
+2018-07-29 22:33:26.460 +02:00 [Information] User profile is available. Using '"C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-07-29 22:33:29.239 +02:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:26106/  0
+2018-07-29 22:33:29.239 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/  
+2018-07-29 22:33:29.328 +02:00 [Information] Request finished in 89.9151ms 200 
+2018-07-29 22:33:29.546 +02:00 [Information] Executing action method "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" with arguments (null) - ModelState is Valid
+2018-07-29 22:33:31.861 +02:00 [Information] webpack built b6e2f45f8f456b2dcf72 in 3169ms
+2018-07-29 22:33:33.123 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-07-29 22:33:33.679 +02:00 [Information] Executed action "Aceout.WebUI.Controllers.HomeController.Index (Aceout.WebUI)" in 4193.2936ms
+2018-07-29 22:33:33.691 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/dist/main-client.js?v=GbXIzunGvjtrwqAD5sIOxiBJ-iff9Y9cHS1ULfkEeYA  
+2018-07-29 22:33:33.691 +02:00 [Information] Request finished in 4461.5967ms 200 text/html; charset=utf-8
+2018-07-29 22:33:33.768 +02:00 [Information] Request finished in 76.8418ms 200 application/javascript; charset=UTF-8
+2018-07-29 22:33:33.909 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/dist/0.js  
+2018-07-29 22:33:33.918 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:26106/dist/__webpack_hmr  
+2018-07-29 22:33:33.944 +02:00 [Information] Request finished in 34.2681ms 200 application/javascript; charset=UTF-8
+2018-07-29 22:33:44.668 +02:00 [Information] Request starting HTTP/1.1 POST http://localhost:26106/login application/json 58
+2018-07-29 22:33:45.285 +02:00 [Information] Executing action method "Aceout.WebUI.Controllers.AccountController.Login (Aceout.WebUI)" with arguments (["Aceout.WebUI.Model.LoginViewModel", ""]) - ModelState is Valid
+2018-07-29 22:33:53.577 +02:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-07-29 22:33:53.588 +02:00 [Information] Executed action "Aceout.WebUI.Controllers.AccountController.Login (Aceout.WebUI)" in 8882.0414ms
+2018-07-29 22:33:53.597 +02:00 [Information] Request finished in 8929.1761ms 200 application/json; charset=utf-8

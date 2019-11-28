@@ -1,0 +1,16 @@
+<div class="card">
+        <h3 class="card-header">{{'Available courses' | translate}}</h3>
+        <div class="d-flex flex-wrap align-items-top flex-row justify-content-center">
+            <div class="card" *ngFor="let path of paths$  | async" style="width:340px;">
+                <a [routerLink]="getUrl(path)">
+                    <image [source]="path.pictureUrl" [width]="340" [height]="280"></image>
+                </a>
+                <div class="card-body">
+                    <a [routerLink]="getUrl(path)" class="card-link card-title">
+                        <h5 style="display:inline-block;">{{path.name}}</h5>
+                    </a>
+                    <div [innerHTML]="path.description"></div>
+                </div>
+            </div>
+        </div>
+    </div>

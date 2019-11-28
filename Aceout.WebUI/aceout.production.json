@@ -1,0 +1,52 @@
+﻿{
+	"AppSettings": {
+		"Database": {
+			"Type": "MySql",
+			"ConnectionString": "Server=localhost;Database=aceout;Uid=root;Pwd=admin"
+		},
+		"Images": {
+			"ThumbsPath": "./storage/Thumbs"
+		},
+		"ImageCacheDirectory": "../storage/Thumbs",
+		"Language": {
+			"Languages": [
+				{
+					"Name": "pl-PL",
+					"IsDefault": true
+				},
+				{
+					"Name": "en-US"
+				}
+			],
+			"FilesPath": "./storage/Languages"
+		},
+		"Cache": {
+			"Redis": {
+				"Address": "192.168.99.100:6379"
+			}
+		},
+		"Authentication": {
+			"Issuer": "http://localhost/Aceout",
+			"Key": "VeryLongSecretKeyToAuthenticateUsers"
+		},
+		"Email": {
+			"EmailAddress": "admin@aceout.com",
+			"Domain": "sandbox6b873746668449aaaa21303c0120a601.mailgun.org",
+			"ApiKey": "a3fb628b426c12ebc61726d830e40b6e-b0aac6d0-b88ed585"
+		}
+	},
+	"Serilog": {
+		"WriteTo": [
+			{
+				"Name": "File",
+				"Args": {
+					"path": "./storage/Logs/log.txt",
+					"rollingInterval": "Day",
+					"outputTemplate": "{Timestamp:yyyy-MM-dd HH:mm:ss.fff zzz} [{Level}] {Message}{NewLine}{Exception}"
+				}
+			}
+		]
+
+	}
+
+}

@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Scripts\2018\01_10_2018_18_32.sql" />
+    <None Remove="Scripts\2018\02_11_2018_17_05.sql" />
+    <None Remove="Scripts\Initial.sql" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Scripts\2018\02_11_2018_17_05.sql" />
+    <EmbeddedResource Include="Scripts\2018\01_10_2018_18_32.sql" />
+    <EmbeddedResource Include="Scripts\Initial.sql" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="dbup-mysql" Version="4.1.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+  </ItemGroup>
+
+</Project>

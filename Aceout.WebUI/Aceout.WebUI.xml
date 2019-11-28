@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Aceout.WebUI</name>
+    </assembly>
+    <members>
+        <member name="T:Aceout.WebUI.Areas.Lms.Controllers.UserLessonsController">
+            <summary>
+            User lesson management
+            </summary>
+        </member>
+        <member name="M:Aceout.WebUI.Areas.Lms.Controllers.UserLessonsController.Get(System.Int32)">
+            <summary>
+            Gets latest user lesson details
+            </summary>
+            <param name="lessonId">lesson ID</param>
+            <returns>User lesson details</returns>
+        </member>
+        <member name="M:Aceout.WebUI.Areas.Organization.Controllers.GroupsController.Post(Aceout.WebUI.Areas.Organization.Models.Groups.CreateGroupModel)">
+            <summary>
+            Creates group
+            </summary>
+            <param name="model">Group data</param>
+            <returns>Created group</returns>
+        </member>
+        <member name="P:Aceout.WebUI.Areas.Organization.Models.Groups.CreateGroupModel.Name">
+            <summary>
+            Group name
+            </summary>
+        </member>
+        <member name="P:Aceout.WebUI.Areas.Organization.Models.Groups.CreateGroupModel.UserIds">
+            <summary>
+            IDs of users assigned to group
+            </summary>
+        </member>
+        <member name="M:Aceout.WebUI.Controllers.AccountController.Login(Aceout.WebUI.Model.LoginViewModel)">
+            <summary>
+            Signs in user and returns JWT
+            </summary>
+            <param name="loginViewModel">Basic login data</param>
+            <returns>JWT</returns>
+        </member>
+    </members>
+</doc>
