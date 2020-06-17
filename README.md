@@ -1,3 +1,3 @@
-# aceout
+# Aceout
 
-Sample E-Learning project created for Master Thesis.
+E-Learning project using MySQL, NHIbernate, CQRS and Reactive Angular.
