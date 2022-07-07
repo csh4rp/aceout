@@ -52,7 +52,7 @@
     "@ngrx/router-store": "7.0.0",
     "@ngrx/store": "7.0.0",
     "@ngrx/store-devtools": "7.0.0",
-    "moment": "2.23.0"
+    "moment": "2.29.4"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "0.10.6",
