@@ -37,7 +37,7 @@
     <PackageReference Include="Hangfire" Version="1.6.21" />
     <PackageReference Include="HangFire.Redis.StackExchange" Version="1.8.0" />
     <PackageReference Include="MediatR" Version="6.0.0" />
-    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.1.7" />
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.1.15" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="3.1.0" />
     <PackageReference Include="Microsoft.AspNetCore.ResponseCaching" Version="2.2.0" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.0" />
